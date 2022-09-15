@@ -1,4 +1,4 @@
-config.initがこのような形で用いている
+config.initをこのような形で用いている
 "api_key"と"api_secret"は、bitflyerで取得する
 [bitflyer]
 api_key = hogehogehogehoge
