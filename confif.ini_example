@@ -1,0 +1,9 @@
+config.initがこのような形で用いている
+"api_key"と"api_secret"は、bitflyerで取得する
+[bitflyer]
+api_key = hogehogehogehoge
+api_secret = fugafugafugafuga=
+
+[gotrading]
+log_file = gotrading.log
+product_code = BTC_JPY
