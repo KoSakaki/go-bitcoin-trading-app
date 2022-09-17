@@ -641,3 +641,25 @@ ga('send', 'pageview');
 2022/09/15 22:16:39 bitflyer.go:179: connencting to wss://ws.lightstream.bitflyer.com/json-rpc
 2022/09/15 22:19:27 bitflyer.go:179: connencting to wss://ws.lightstream.bitflyer.com/json-rpc
 2022/09/15 22:20:04 bitflyer.go:179: connencting to wss://ws.lightstream.bitflyer.com/json-rpc
+2022/09/17 21:25:29 bitflyer.go:62: action=doRequest endpoint=https://api.bitflyer.com/v1/me/sendchildorder
+2022/09/17 21:25:29 bitflyer.go:31: 1663417529
+2022/09/17 21:26:24 bitflyer.go:62: action=doRequest endpoint=https://api.bitflyer.com/v1/me/sendchildorder
+2022/09/17 21:26:24 bitflyer.go:31: 1663417584
+2022/09/17 21:28:11 bitflyer.go:61: action=doRequest endpoint=https://api.bitflyer.com/v1/me/sendchildorder
+2022/09/17 21:30:11 bitflyer.go:61: action=doRequest endpoint=https://api.bitflyer.com/v1/me/sendchildorder
+2022/09/17 21:30:40 bitflyer.go:61: action=doRequest endpoint=https://api.bitflyer.com/v1/me/sendchildorder
+2022/09/17 21:30:40 bitflyer.go:267: [123 34 115 116 97 116 117 115 34 58 45 49 49 48 44 34 101 114 114 111 114 95 109 101 115 115 97 103 101 34 58 34 84 104 101 32 109 105 110 105 109 117 109 32 111 114 100 101 114 32 115 105 122 101 32 105 115 32 48 46 48 48 49 32 66 84 67 46 34 44 34 100 97 116 97 34 58 110 117 108 108 125]
+2022/09/17 21:30:49 bitflyer.go:61: action=doRequest endpoint=https://api.bitflyer.com/v1/me/sendchildorder
+2022/09/17 21:30:49 bitflyer.go:267: {"status":-110,"error_message":"The minimum order size is 0.001 BTC.","data":null}
+2022/09/17 21:36:22 bitflyer.go:61: action=doRequest endpoint=https://api.bitflyer.com/v1/me/sendchildorder
+2022/09/17 21:36:22 bitflyer.go:269: {"status":-110,"error_message":"The minimum order size is 0.001 BTC.","data":null}
+2022/09/17 21:36:22 main.go:42: Error:  The minimum order size is 0.001 BTC.
+2022/09/17 21:37:23 bitflyer.go:61: action=doRequest endpoint=https://api.bitflyer.com/v1/me/sendchildorder
+2022/09/17 21:37:24 bitflyer.go:269: {"status":-110,"error_message":"The minimum order size is 0.001 BTC.","data":null}
+2022/09/17 21:37:24 main.go:42: status : -110, Error: The minimum order size is 0.001 BTC.
+2022/09/17 21:37:40 bitflyer.go:61: action=doRequest endpoint=https://api.bitflyer.com/v1/me/sendchildorder
+2022/09/17 21:37:41 main.go:42: status : -110, Error: The minimum order size is 0.001 BTC.
+2022/09/17 21:38:05 bitflyer.go:61: action=doRequest endpoint=https://api.bitflyer.com/v1/me/sendchildorder
+2022/09/17 21:38:05 main.go:42: status : -200, Error: Insufficient funds
+2022/09/17 21:42:16 bitflyer.go:61: action=doRequest endpoint=https://api.bitflyer.com/1/me/getchildorders
+2022/09/17 21:44:07 bitflyer.go:61: action=doRequest endpoint=https://api.bitflyer.com/1/me/getchildorders

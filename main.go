@@ -2,6 +2,7 @@ package main
 
 import (
 	"fmt"
+	"log"
 	"time"
 
 	"example.com/bitflyer"
@@ -25,4 +26,30 @@ func main() {
 		fmt.Println(ticker.TruncateDateTime(time.Minute))
 		fmt.Println(ticker.TruncateDateTime(time.Hour))
 	}
+
+	order := &bitflyer.Order{
+		ProductCode:     config.Config.ProductCode,
+		ChildOrderType:  "MARKET",
+		Side:            "BUY",
+		Size:            0.001,
+		MinuteToExpires: 1,
+		TimeInForce:     "GTC",
+	}
+	res, err := apiClient.SendOrder(order)
+	if err != nil {
+		log.Println("Error: ", err)
+	}
+	if res.Status != 200 {
+		log.Printf("status : %v, Error: %s", res.Status, res.ErrorMessage)
+
+	}
+
+	i := res.ChildOrderAcceptanceID
+	params := map[string]string{
+		"product_code":              config.Config.ProductCode,
+		"child_order_acceptance_id": i,
+	}
+	r, _ := apiClient.ListOrder(params)
+	fmt.Println(r)
+
 }
