@@ -7,3 +7,11 @@ api_secret = fugafugafugafuga=
 [gotrading]
 log_file = gotrading.log
 product_code = BTC_JPY
+trade_durations = 1m
+
+[db]
+name = stockdata.sql
+driver = sqlite3
+
+[web]
+port = 8080
