@@ -1,4 +1,3 @@
-require example.com/utils v1.2.3
-module utils
+module gotrading/utils
 
 go 1.19

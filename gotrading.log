@@ -1,665 +1,289 @@
-2022/09/15 16:14:53 main.go:13: test
-2022/09/15 18:35:50 main.go:14: test
-2022/09/15 18:35:50 bitflyer.go:59: action=doRequest endpoint=http://api.bitflyer.com/me/getbalence
-2022/09/15 18:35:50 bitflyer.go:28: 1663234550
-2022/09/15 18:35:50 bitflyer.go:95: url=me/getbalence resp=
-
-<!DOCTYPE html>
-<html lang="ja">
-<head>
-     
-<!-- Google Tag Manager -->
-<script>
-(function (w, d, s, l, i) {
-                    w[l] = w[l] || []; w[l].push({
-                        'gtm.start':
-new Date().getTime(), event: 'gtm.js'
-}); var f = d.getElementsByTagName(s)[0],
-j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
-'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
-})(window, document, 'script', 'dataLayer', 'GTM-TWV92L');</script>
-<!-- End Google Tag Manager -->
-
-    <link rel="apple-touch-icon" sizes="57x57" href="/Content/apple-icon-57x57.png">
-    <link rel="apple-touch-icon" sizes="60x60" href="/Content/apple-icon-60x60.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="/Content/apple-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="76x76" href="/Content/apple-icon-76x76.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="/Content/apple-icon-114x114.png">
-    <link rel="apple-touch-icon" sizes="120x120" href="/Content/apple-icon-120x120.png">
-    <link rel="apple-touch-icon" sizes="144x144" href="/Content/apple-icon-144x144.png">
-    <link rel="apple-touch-icon" sizes="152x152" href="/Content/apple-icon-152x152.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="/Content/apple-icon-180x180.png">
-    <link rel="icon" type="image/png" sizes="192x192" href="/Content/android-icon-192x192.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/Content/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="96x96" href="/Content/favicon-96x96.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/Content/favicon-16x16.png">
-    <link rel="manifest" href="/Content/manifest.json">
-    <meta name="msapplication-TileColor" content="#ffffff">
-    <meta name="msapplication-TileImage" content="/Content/ms-icon-144x144.png">
-    <meta name="theme-color" content="#ffffff">
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>bitFlyer Lightning ビットコイン取引所</title>
-    <link href="/Content/default?v=lRYcFBJiijgcGt2qt2_Y-ZhPlVdb5H--Wy_ZJMJe0YQ1" rel="stylesheet"/>
-
-    <script>
-(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-ga('create', 'UA-64393818-1', 'auto');
-ga('send', 'pageview');
-</script>
-</head>
-<body class="404">
-     
-    <!-- Google Tag Manager (noscript) -->
-    <noscript>
-        <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TWV92L"
-                height="0" width="0" style="display:none;visibility:hidden"></iframe>
-    </noscript>
-    <!-- End Google Tag Manager (noscript) -->
-
-    <div class="top-bar">
-        <div class="top-bar__ticker" style="line-height:50px;">
-            <span style="line-height:50px;">
-                <img src="/Content/LightningLogo.png" class="logo" alt="Lightning Bitcoin Exchange by bitFlyer">
-            </span>
-        </div>
-    </div>
-    <main>
-        <section style="text-align: center; margin-top: 100px;">
-            <h1>NOT FOUND</h1>
-            <ul>
-                <li><a href="/">Back to Home</a></li>
-                <li><a href="https://bitflyer.com/">bitFlyer</a></li>
-            </ul>
-        </section>
-    </main>
-</body>
-</html>
-2022/09/15 18:35:50 bitflyer.go:104: action=GetBalance err=invalid character '<' looking for beginning of value
-2022/09/15 18:37:11 main.go:14: test
-2022/09/15 18:37:11 bitflyer.go:59: action=doRequest endpoint=http://api.bitflyer.com/me/getbalance
-2022/09/15 18:37:11 bitflyer.go:28: 1663234631
-2022/09/15 18:37:11 bitflyer.go:95: url=me/getbalance resp=
-
-<!DOCTYPE html>
-<html lang="ja">
-<head>
-     
-<!-- Google Tag Manager -->
-<script>
-(function (w, d, s, l, i) {
-                    w[l] = w[l] || []; w[l].push({
-                        'gtm.start':
-new Date().getTime(), event: 'gtm.js'
-}); var f = d.getElementsByTagName(s)[0],
-j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
-'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
-})(window, document, 'script', 'dataLayer', 'GTM-TWV92L');</script>
-<!-- End Google Tag Manager -->
-
-    <link rel="apple-touch-icon" sizes="57x57" href="/Content/apple-icon-57x57.png">
-    <link rel="apple-touch-icon" sizes="60x60" href="/Content/apple-icon-60x60.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="/Content/apple-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="76x76" href="/Content/apple-icon-76x76.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="/Content/apple-icon-114x114.png">
-    <link rel="apple-touch-icon" sizes="120x120" href="/Content/apple-icon-120x120.png">
-    <link rel="apple-touch-icon" sizes="144x144" href="/Content/apple-icon-144x144.png">
-    <link rel="apple-touch-icon" sizes="152x152" href="/Content/apple-icon-152x152.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="/Content/apple-icon-180x180.png">
-    <link rel="icon" type="image/png" sizes="192x192" href="/Content/android-icon-192x192.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/Content/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="96x96" href="/Content/favicon-96x96.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/Content/favicon-16x16.png">
-    <link rel="manifest" href="/Content/manifest.json">
-    <meta name="msapplication-TileColor" content="#ffffff">
-    <meta name="msapplication-TileImage" content="/Content/ms-icon-144x144.png">
-    <meta name="theme-color" content="#ffffff">
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>bitFlyer Lightning ビットコイン取引所</title>
-    <link href="/Content/default?v=lRYcFBJiijgcGt2qt2_Y-ZhPlVdb5H--Wy_ZJMJe0YQ1" rel="stylesheet"/>
-
-    <script>
-(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-ga('create', 'UA-64393818-1', 'auto');
-ga('send', 'pageview');
-</script>
-</head>
-<body class="404">
-     
-    <!-- Google Tag Manager (noscript) -->
-    <noscript>
-        <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TWV92L"
-                height="0" width="0" style="display:none;visibility:hidden"></iframe>
-    </noscript>
-    <!-- End Google Tag Manager (noscript) -->
-
-    <div class="top-bar">
-        <div class="top-bar__ticker" style="line-height:50px;">
-            <span style="line-height:50px;">
-                <img src="/Content/LightningLogo.png" class="logo" alt="Lightning Bitcoin Exchange by bitFlyer">
-            </span>
-        </div>
-    </div>
-    <main>
-        <section style="text-align: center; margin-top: 100px;">
-            <h1>NOT FOUND</h1>
-            <ul>
-                <li><a href="/">Back to Home</a></li>
-                <li><a href="https://bitflyer.com/">bitFlyer</a></li>
-            </ul>
-        </section>
-    </main>
-</body>
-</html>
-2022/09/15 18:37:11 bitflyer.go:104: action=GetBalance err=invalid character '<' looking for beginning of value
-2022/09/15 18:40:41 main.go:14: test
-2022/09/15 18:40:41 bitflyer.go:51: http://api.bitflyer.com/v1
-2022/09/15 18:40:41 bitflyer.go:61: action=doRequest endpoint=http://api.bitflyer.com/me/getbalance
-2022/09/15 18:40:41 bitflyer.go:28: 1663234841
-2022/09/15 18:40:41 bitflyer.go:97: url=me/getbalance resp=
-
-<!DOCTYPE html>
-<html lang="ja">
-<head>
-     
-<!-- Google Tag Manager -->
-<script>
-(function (w, d, s, l, i) {
-                    w[l] = w[l] || []; w[l].push({
-                        'gtm.start':
-new Date().getTime(), event: 'gtm.js'
-}); var f = d.getElementsByTagName(s)[0],
-j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
-'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
-})(window, document, 'script', 'dataLayer', 'GTM-TWV92L');</script>
-<!-- End Google Tag Manager -->
-
-    <link rel="apple-touch-icon" sizes="57x57" href="/Content/apple-icon-57x57.png">
-    <link rel="apple-touch-icon" sizes="60x60" href="/Content/apple-icon-60x60.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="/Content/apple-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="76x76" href="/Content/apple-icon-76x76.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="/Content/apple-icon-114x114.png">
-    <link rel="apple-touch-icon" sizes="120x120" href="/Content/apple-icon-120x120.png">
-    <link rel="apple-touch-icon" sizes="144x144" href="/Content/apple-icon-144x144.png">
-    <link rel="apple-touch-icon" sizes="152x152" href="/Content/apple-icon-152x152.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="/Content/apple-icon-180x180.png">
-    <link rel="icon" type="image/png" sizes="192x192" href="/Content/android-icon-192x192.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/Content/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="96x96" href="/Content/favicon-96x96.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/Content/favicon-16x16.png">
-    <link rel="manifest" href="/Content/manifest.json">
-    <meta name="msapplication-TileColor" content="#ffffff">
-    <meta name="msapplication-TileImage" content="/Content/ms-icon-144x144.png">
-    <meta name="theme-color" content="#ffffff">
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>bitFlyer Lightning ビットコイン取引所</title>
-    <link href="/Content/default?v=lRYcFBJiijgcGt2qt2_Y-ZhPlVdb5H--Wy_ZJMJe0YQ1" rel="stylesheet"/>
-
-    <script>
-(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-ga('create', 'UA-64393818-1', 'auto');
-ga('send', 'pageview');
-</script>
-</head>
-<body class="404">
-     
-    <!-- Google Tag Manager (noscript) -->
-    <noscript>
-        <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TWV92L"
-                height="0" width="0" style="display:none;visibility:hidden"></iframe>
-    </noscript>
-    <!-- End Google Tag Manager (noscript) -->
-
-    <div class="top-bar">
-        <div class="top-bar__ticker" style="line-height:50px;">
-            <span style="line-height:50px;">
-                <img src="/Content/LightningLogo.png" class="logo" alt="Lightning Bitcoin Exchange by bitFlyer">
-            </span>
-        </div>
-    </div>
-    <main>
-        <section style="text-align: center; margin-top: 100px;">
-            <h1>NOT FOUND</h1>
-            <ul>
-                <li><a href="/">Back to Home</a></li>
-                <li><a href="https://bitflyer.com/">bitFlyer</a></li>
-            </ul>
-        </section>
-    </main>
-</body>
-</html>
-2022/09/15 18:40:41 bitflyer.go:106: action=GetBalance err=invalid character '<' looking for beginning of value
-2022/09/15 18:41:49 main.go:14: test
-2022/09/15 18:41:49 bitflyer.go:61: action=doRequest endpoint=http://api.bitflyer.com/me/getbalance
-2022/09/15 18:41:49 bitflyer.go:29: 1663234909
-2022/09/15 18:41:49 bitflyer.go:97: url=me/getbalance resp=
-
-<!DOCTYPE html>
-<html lang="ja">
-<head>
-     
-<!-- Google Tag Manager -->
-<script>
-(function (w, d, s, l, i) {
-                    w[l] = w[l] || []; w[l].push({
-                        'gtm.start':
-new Date().getTime(), event: 'gtm.js'
-}); var f = d.getElementsByTagName(s)[0],
-j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
-'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
-})(window, document, 'script', 'dataLayer', 'GTM-TWV92L');</script>
-<!-- End Google Tag Manager -->
-
-    <link rel="apple-touch-icon" sizes="57x57" href="/Content/apple-icon-57x57.png">
-    <link rel="apple-touch-icon" sizes="60x60" href="/Content/apple-icon-60x60.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="/Content/apple-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="76x76" href="/Content/apple-icon-76x76.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="/Content/apple-icon-114x114.png">
-    <link rel="apple-touch-icon" sizes="120x120" href="/Content/apple-icon-120x120.png">
-    <link rel="apple-touch-icon" sizes="144x144" href="/Content/apple-icon-144x144.png">
-    <link rel="apple-touch-icon" sizes="152x152" href="/Content/apple-icon-152x152.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="/Content/apple-icon-180x180.png">
-    <link rel="icon" type="image/png" sizes="192x192" href="/Content/android-icon-192x192.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/Content/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="96x96" href="/Content/favicon-96x96.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/Content/favicon-16x16.png">
-    <link rel="manifest" href="/Content/manifest.json">
-    <meta name="msapplication-TileColor" content="#ffffff">
-    <meta name="msapplication-TileImage" content="/Content/ms-icon-144x144.png">
-    <meta name="theme-color" content="#ffffff">
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>bitFlyer Lightning ビットコイン取引所</title>
-    <link href="/Content/default?v=lRYcFBJiijgcGt2qt2_Y-ZhPlVdb5H--Wy_ZJMJe0YQ1" rel="stylesheet"/>
-
-    <script>
-(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-ga('create', 'UA-64393818-1', 'auto');
-ga('send', 'pageview');
-</script>
-</head>
-<body class="404">
-     
-    <!-- Google Tag Manager (noscript) -->
-    <noscript>
-        <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TWV92L"
-                height="0" width="0" style="display:none;visibility:hidden"></iframe>
-    </noscript>
-    <!-- End Google Tag Manager (noscript) -->
-
-    <div class="top-bar">
-        <div class="top-bar__ticker" style="line-height:50px;">
-            <span style="line-height:50px;">
-                <img src="/Content/LightningLogo.png" class="logo" alt="Lightning Bitcoin Exchange by bitFlyer">
-            </span>
-        </div>
-    </div>
-    <main>
-        <section style="text-align: center; margin-top: 100px;">
-            <h1>NOT FOUND</h1>
-            <ul>
-                <li><a href="/">Back to Home</a></li>
-                <li><a href="https://bitflyer.com/">bitFlyer</a></li>
-            </ul>
-        </section>
-    </main>
-</body>
-</html>
-2022/09/15 18:41:49 bitflyer.go:106: action=GetBalance err=invalid character '<' looking for beginning of value
-2022/09/15 18:42:32 main.go:14: test
-2022/09/15 18:42:32 bitflyer.go:59: action=doRequest endpoint=http://api.bitflyer.com/v1/me/getbalance
-2022/09/15 18:42:32 bitflyer.go:28: 1663234952
-2022/09/15 18:42:33 bitflyer.go:95: url=me/getbalance resp={"status":-500,"error_message":"ACCESS-KEY header is required","data":null}
-2022/09/15 18:42:33 bitflyer.go:104: action=GetBalance err=json: cannot unmarshal object into Go value of type []bitflyer.Balance
-2022/09/15 18:44:18 main.go:14: test
-2022/09/15 18:44:18 bitflyer.go:59: action=doRequest endpoint=http://api.bitflyer.com/v1/me/getbalance
-2022/09/15 18:44:18 bitflyer.go:28: 1663235058
-2022/09/15 18:44:18 bitflyer.go:95: url=me/getbalance resp={"status":-500,"error_message":"ACCESS-KEY header is required","data":null}
-2022/09/15 18:44:18 bitflyer.go:104: action=GetBalance err=json: cannot unmarshal object into Go value of type []bitflyer.Balance
-2022/09/15 18:46:26 main.go:14: test
-2022/09/15 18:46:26 bitflyer.go:58: action=doRequest endpoint=http://api.bitflyer.com/v1/me/getbalance
-2022/09/15 18:46:26 bitflyer.go:28: 1663235186
-2022/09/15 18:46:27 bitflyer.go:94: url=me/getbalance resp={"status":-500,"error_message":"ACCESS-KEY header is required","data":null}
-2022/09/15 18:46:27 bitflyer.go:103: action=GetBalance err=json: cannot unmarshal object into Go value of type []bitflyer.Balance
-2022/09/15 18:52:22 main.go:14: test
-2022/09/15 18:52:22 bitflyer.go:58: action=doRequest endpoint=http://api.bitflyer.com/v1/me/getbalance
-2022/09/15 18:52:22 bitflyer.go:28: 1663235542
-2022/09/15 18:52:22 bitflyer.go:94: url=me/getbalance resp={"status":-500,"error_message":"ACCESS-KEY header is required","data":null}
-2022/09/15 18:52:22 bitflyer.go:103: action=GetBalance err=json: cannot unmarshal object into Go value of type []bitflyer.Balance
-2022/09/15 18:53:47 main.go:14: test
-2022/09/15 18:53:47 bitflyer.go:58: action=doRequest endpoint=https://api.bitflyer.com/v1/me/getbalance
-2022/09/15 18:53:47 bitflyer.go:28: 1663235627
-2022/09/15 18:53:47 bitflyer.go:94: url=me/getbalance resp={"status":-500,"error_message":"ACCESS-KEY header is required","data":null}
-2022/09/15 18:53:47 bitflyer.go:103: action=GetBalance err=json: cannot unmarshal object into Go value of type []bitflyer.Balance
-2022/09/15 18:55:41 main.go:14: test
-2022/09/15 18:55:41 bitflyer.go:58: action=doRequest endpoint=https://api.bitflyer.com/v1/me/getbalance
-2022/09/15 18:55:41 bitflyer.go:28: 1663235741
-2022/09/15 18:55:41 bitflyer.go:94: url=me/getbalance resp={"status":-500,"error_message":"ACCESS-KEY header is required","data":null}
-2022/09/15 18:55:41 bitflyer.go:103: action=GetBalance err=json: cannot unmarshal object into Go value of type []bitflyer.Balance
-2022/09/15 18:56:17 main.go:14: test
-2022/09/15 18:57:59 main.go:14: test
-2022/09/15 18:57:59 bitflyer.go:58: action=doRequest endpoint=https://api.bitflyer.com/v1/me/getbalance
-2022/09/15 18:57:59 bitflyer.go:28: 1663235879
-2022/09/15 18:57:59 bitflyer.go:94: url=me/getbalance resp={"status":-500,"error_message":"ACCESS-KEY header is required","data":null}
-2022/09/15 18:57:59 bitflyer.go:103: action=GetBalance err=json: cannot unmarshal object into Go value of type []bitflyer.Balance
-2022/09/15 18:59:12 main.go:14: test
-2022/09/15 18:59:12 bitflyer.go:58: action=doRequest endpoint=https://api.bitflyer.com/v1/me/getbalance
-2022/09/15 18:59:12 bitflyer.go:28: 1663235952
-2022/09/15 18:59:12 bitflyer.go:94: url=/v1/me/getbalance resp={"status":-500,"error_message":"ACCESS-KEY header is required","data":null}
-2022/09/15 18:59:12 bitflyer.go:103: action=GetBalance err=json: cannot unmarshal object into Go value of type []bitflyer.Balance
-2022/09/15 19:00:20 main.go:14: test
-2022/09/15 19:00:20 bitflyer.go:58: action=doRequest endpoint=https://api.bitflyer.com/v1/me/getbalance
-2022/09/15 19:00:20 bitflyer.go:28: 1663236020
-2022/09/15 19:00:20 bitflyer.go:94: url=/v1/me/getbalance resp=
-2022/09/15 19:00:20 bitflyer.go:96: action=GetBalance err=Get "/v1/me/getbalance": unsupported protocol scheme ""
-2022/09/15 19:00:38 main.go:14: test
-2022/09/15 19:00:38 bitflyer.go:58: action=doRequest endpoint=https://api.bitflyer.com/v1/me/getbalance
-2022/09/15 19:00:38 bitflyer.go:28: 1663236038
-2022/09/15 19:00:38 bitflyer.go:94: url=/v1/me/getbalance resp={"status":-500,"error_message":"ACCESS-KEY header is required","data":null}
-2022/09/15 19:00:38 bitflyer.go:103: action=GetBalance err=json: cannot unmarshal object into Go value of type []bitflyer.Balance
-2022/09/15 19:00:53 main.go:14: test
-2022/09/15 19:00:53 bitflyer.go:58: action=doRequest endpoint=https://api.bitflyer.com/v1/me/getbalance
-2022/09/15 19:00:53 bitflyer.go:28: 1663236053
-2022/09/15 19:00:53 bitflyer.go:94: url=/v1/me/getbalance resp={"status":-500,"error_message":"ACCESS-SIGN header is required","data":null}
-2022/09/15 19:00:53 bitflyer.go:103: action=GetBalance err=json: cannot unmarshal object into Go value of type []bitflyer.Balance
-2022/09/15 19:01:03 main.go:14: test
-2022/09/15 19:01:03 bitflyer.go:58: action=doRequest endpoint=https://api.bitflyer.com/v1/me/getbalance
-2022/09/15 19:01:03 bitflyer.go:28: 1663236063
-2022/09/15 19:01:03 bitflyer.go:94: url=/v1/me/getbalance resp=[{"currency_code":"JPY","amount":0.0,"available":0.0},{"currency_code":"BTC","amount":0.0,"available":0.0},{"currency_code":"BCH","amount":0.0,"available":0.0},{"currency_code":"ETH","amount":0.0,"available":0.0},{"currency_code":"ETC","amount":0.0,"available":0.0},{"currency_code":"LTC","amount":0.0,"available":0.0},{"currency_code":"MONA","amount":0.0,"available":0.0},{"currency_code":"LSK","amount":0.0,"available":0.0},{"currency_code":"XRP","amount":0.0,"available":0.0},{"currency_code":"BAT","amount":0.0,"available":0.0},{"currency_code":"XLM","amount":0.0,"available":0.0},{"currency_code":"XEM","amount":0.0,"available":0.0},{"currency_code":"XTZ","amount":0.0,"available":0.0},{"currency_code":"DOT","amount":0.0,"available":0.0},{"currency_code":"LINK","amount":0.0,"available":0.0},{"currency_code":"XYM","amount":0.0,"available":0.0},{"currency_code":"MATIC","amount":0.0,"available":0.0},{"currency_code":"MKR","amount":0.0,"available":0.0}]
-2022/09/15 19:01:25 main.go:14: test
-2022/09/15 19:01:25 bitflyer.go:58: action=doRequest endpoint=https://api.bitflyer.com/v1/me/getbalance
-2022/09/15 19:01:25 bitflyer.go:28: 1663236085
-2022/09/15 19:01:25 bitflyer.go:94: url=/v1/me/getbalance resp=[{"currency_code":"JPY","amount":0.0,"available":0.0},{"currency_code":"BTC","amount":0.0,"available":0.0},{"currency_code":"BCH","amount":0.0,"available":0.0},{"currency_code":"ETH","amount":0.0,"available":0.0},{"currency_code":"ETC","amount":0.0,"available":0.0},{"currency_code":"LTC","amount":0.0,"available":0.0},{"currency_code":"MONA","amount":0.0,"available":0.0},{"currency_code":"LSK","amount":0.0,"available":0.0},{"currency_code":"XRP","amount":0.0,"available":0.0},{"currency_code":"BAT","amount":0.0,"available":0.0},{"currency_code":"XLM","amount":0.0,"available":0.0},{"currency_code":"XEM","amount":0.0,"available":0.0},{"currency_code":"XTZ","amount":0.0,"available":0.0},{"currency_code":"DOT","amount":0.0,"available":0.0},{"currency_code":"LINK","amount":0.0,"available":0.0},{"currency_code":"XYM","amount":0.0,"available":0.0},{"currency_code":"MATIC","amount":0.0,"available":0.0},{"currency_code":"MKR","amount":0.0,"available":0.0}]
-2022/09/15 19:03:40 main.go:14: test
-2022/09/15 19:03:40 bitflyer.go:59: action=doRequest endpoint=https://api.bitflyer.com/v1/me/getbalance
-2022/09/15 19:03:40 bitflyer.go:28: 1663236220
-2022/09/15 19:03:40 bitflyer.go:95: url=/v1/me/getbalance resp=[{"currency_code":"JPY","amount":0.0,"available":0.0},{"currency_code":"BTC","amount":0.0,"available":0.0},{"currency_code":"BCH","amount":0.0,"available":0.0},{"currency_code":"ETH","amount":0.0,"available":0.0},{"currency_code":"ETC","amount":0.0,"available":0.0},{"currency_code":"LTC","amount":0.0,"available":0.0},{"currency_code":"MONA","amount":0.0,"available":0.0},{"currency_code":"LSK","amount":0.0,"available":0.0},{"currency_code":"XRP","amount":0.0,"available":0.0},{"currency_code":"BAT","amount":0.0,"available":0.0},{"currency_code":"XLM","amount":0.0,"available":0.0},{"currency_code":"XEM","amount":0.0,"available":0.0},{"currency_code":"XTZ","amount":0.0,"available":0.0},{"currency_code":"DOT","amount":0.0,"available":0.0},{"currency_code":"LINK","amount":0.0,"available":0.0},{"currency_code":"XYM","amount":0.0,"available":0.0},{"currency_code":"MATIC","amount":0.0,"available":0.0},{"currency_code":"MKR","amount":0.0,"available":0.0}]
-2022/09/15 20:15:30 main.go:15: test
-2022/09/15 20:15:30 bitflyer.go:59: action=doRequest endpoint=https://api.bitflyer.com/v1/ticker
-2022/09/15 20:15:30 bitflyer.go:28: 1663240530
-2022/09/15 20:15:31 bitflyer.go:148: url=/v1/ticker resp={"product_code":"BTC_USD","state":"RUNNING","timestamp":"2022-09-15T11:15:28.04","tick_id":989784,"best_bid":20119.39,"best_ask":20131.64,"best_bid_size":1.501,"best_ask_size":0.6,"total_bid_depth":16.23699287,"total_ask_depth":17.14510878,"market_bid_size":0.0,"market_ask_size":0.0,"ltp":20124.97,"volume":393.84473177,"volume_by_product":393.84473177}
-2022/09/15 20:15:31 bitflyer.go:136: action=DateTime err=parsing time "2022-09-15T11:15:28.04" as "2006-01-02T15:04:05Z07:00": cannot parse "" as "Z07:00"
-2022/09/15 20:15:31 bitflyer.go:136: action=DateTime err=parsing time "2022-09-15T11:15:28.04" as "2006-01-02T15:04:05Z07:00": cannot parse "" as "Z07:00"
-2022/09/15 20:55:17 main.go:15: test
-2022/09/15 20:55:17 bitflyer.go:62: action=doRequest endpoint=https://api.bitflyer.com/v1/ticker
-2022/09/15 20:55:17 bitflyer.go:31: 1663242917
-2022/09/15 20:55:17 bitflyer.go:152: url=/v1/ticker resp={"product_code":"BTC_USD","state":"RUNNING","timestamp":"2022-09-15T11:55:15.157","tick_id":993305,"best_bid":20150.95,"best_ask":20158.42,"best_bid_size":0.01,"best_ask_size":0.10733646,"total_bid_depth":13.32663843,"total_ask_depth":15.30241346,"market_bid_size":0.0,"market_ask_size":0.0,"ltp":20151.96,"volume":396.02394045,"volume_by_product":396.02394045}
-2022/09/15 20:55:17 bitflyer.go:140: action=DateTime err=parsing time "2022-09-15T11:15:28.04" as "2006-01-02T15:04:05Z07:00": cannot parse "" as "Z07:00"
-2022/09/15 20:55:17 bitflyer.go:140: action=DateTime err=parsing time "2022-09-15T11:15:28.04" as "2006-01-02T15:04:05Z07:00": cannot parse "" as "Z07:00"
-2022/09/15 21:06:13 bitflyer.go:180: connencting to wss://ws.lightstream.bitflyer.com/json-rpc
-2022/09/15 21:10:50 bitflyer.go:180: connencting to wss://ws.lightstream.bitflyer.com/json-rpc
-2022/09/15 21:10:50 bitflyer.go:202: &{2.0  <nil> <nil> <nil>}
-2022/09/15 21:11:26 bitflyer.go:180: connencting to wss://ws.lightstream.bitflyer.com/json-rpc
-2022/09/15 21:11:26 bitflyer.go:202: &{2.0  <nil> <nil> <nil>}
-2022/09/15 21:12:30 bitflyer.go:180: connencting to wss://ws.lightstream.bitflyer.com/json-rpc
-2022/09/15 21:12:31 bitflyer.go:193: &{0xc00019e000 false  0xc000096ae0 [0 0 0 0 0 0 0 0 129 231 66 4 203 154 57 38 161 233 45 106 185 234 33 38 241 184 112 42 251 184 110 38 134 255 54 108 164 254 96 62 233 233 55 102 184 249 48 109 169 255 96 40 233 234 35 118 170 247 49 38 241 225 96 103 163 251 44 106 174 246 96 62 233 246 43 99 163 238 44 109 165 253 29 112 168 241 39 118 148 184 63 40 233 232 39 119 190 246 54 38 241 244 55 104 167 182 96 109 175 184 120 106 190 246 46 121 193 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0] <nil> 4110 {0 0 <nil>} <nil> false {0 0} <nil> true 1 <nil> <nil> <nil> 0xc00041bce0 0 true 0 0 0 [0 0 0 0] 0x6170e0 0x6130e0 0x612f40 0 <nil> false <nil>}
-2022/09/15 21:12:31 bitflyer.go:203: &{2.0  <nil> <nil> <nil>}
-2022/09/15 21:14:14 bitflyer.go:180: connencting to wss://ws.lightstream.bitflyer.com/json-rpc
-2022/09/15 21:14:14 bitflyer.go:193: &{0xc00012c700 false  0xc0000ba660 [0 0 0 0 0 0 0 0 129 231 66 4 203 154 57 38 161 233 45 106 185 234 33 38 241 184 112 42 251 184 110 38 134 255 54 108 164 254 96 62 233 233 55 102 184 249 48 109 169 255 96 40 233 234 35 118 170 247 49 38 241 225 96 103 163 251 44 106 174 246 96 62 233 246 43 99 163 238 44 109 165 253 29 112 168 241 39 118 148 184 63 40 233 232 39 119 190 246 54 38 241 244 55 104 167 182 96 109 175 184 120 106 190 246 46 121 193 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0] <nil> 4110 {0 0 <nil>} <nil> false {0 0} <nil> true 1 <nil> <nil> <nil> 0xc0000ae720 0 true 0 0 0 [0 0 0 0] 0x6170e0 0x6130e0 0x612f40 0 <nil> false <nil>}
-2022/09/15 21:14:14 bitflyer.go:203: &{2.0  <nil> <nil> <nil>}
-2022/09/15 21:14:27 bitflyer.go:180: connencting to wss://ws.lightstream.bitflyer.com/json-rpc
-2022/09/15 21:14:27 bitflyer.go:193: &{0xc00012c700 false  0xc0000ba660 [0 0 0 0 0 0 0 0 129 231 66 4 203 154 57 38 161 233 45 106 185 234 33 38 241 184 112 42 251 184 110 38 134 255 54 108 164 254 96 62 233 233 55 102 184 249 48 109 169 255 96 40 233 234 35 118 170 247 49 38 241 225 96 103 163 251 44 106 174 246 96 62 233 246 43 99 163 238 44 109 165 253 29 112 168 241 39 118 148 184 63 40 233 232 39 119 190 246 54 38 241 244 55 104 167 182 96 109 175 184 120 106 190 246 46 121 193 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0] <nil> 4110 {0 0 <nil>} <nil> false {0 0} <nil> true 1 <nil> <nil> <nil> 0xc000030ba0 0 true 0 0 0 [0 0 0 0] 0x6170e0 0x6130e0 0x612f40 0 <nil> false <nil>}
-2022/09/15 21:14:27 bitflyer.go:203: &{2.0  <nil> <nil> <nil>}
-2022/09/15 21:14:33 bitflyer.go:180: connencting to wss://ws.lightstream.bitflyer.com/json-rpc
-2022/09/15 21:14:33 bitflyer.go:202: &{2.0  <nil> <nil> <nil>}
-2022/09/15 21:14:47 bitflyer.go:180: connencting to wss://ws.lightstream.bitflyer.com/json-rpc
-2022/09/15 21:14:48 bitflyer.go:202: {2.0  <nil> <nil> <nil>}
-2022/09/15 21:22:14 bitflyer.go:180: connencting to wss://ws.lightstream.bitflyer.com/json-rpc
-2022/09/15 21:22:14 bitflyer.go:202: {2.0  <nil> <nil> <nil>}
-2022/09/15 21:22:41 bitflyer.go:180: connencting to wss://ws.lightstream.bitflyer.com/json-rpc
-2022/09/15 21:22:42 bitflyer.go:204: {2.0  <nil> <nil> <nil>}
-2022/09/15 21:22:55 bitflyer.go:180: connencting to wss://ws.lightstream.bitflyer.com/json-rpc
-2022/09/15 21:22:56 bitflyer.go:188: 
-2022/09/15 21:22:56 bitflyer.go:204: {2.0  <nil> <nil> <nil>}
-2022/09/15 21:23:35 bitflyer.go:180: connencting to wss://ws.lightstream.bitflyer.com/json-rpc
-2022/09/15 21:23:35 bitflyer.go:188: BTC_USD
-2022/09/15 21:23:35 bitflyer.go:204: {2.0  <nil> <nil> <nil>}
-2022/09/15 21:24:00 bitflyer.go:180: connencting to wss://ws.lightstream.bitflyer.com/json-rpc
-2022/09/15 21:24:00 bitflyer.go:203: {2.0  <nil> <nil> <nil>}
-2022/09/15 21:24:31 bitflyer.go:180: connencting to wss://ws.lightstream.bitflyer.com/json-rpc
-2022/09/15 21:24:31 bitflyer.go:203: 
-2022/09/15 21:25:07 bitflyer.go:180: connencting to wss://ws.lightstream.bitflyer.com/json-rpc
-2022/09/15 21:25:08 bitflyer.go:204: 
-2022/09/15 21:26:34 bitflyer.go:180: connencting to wss://ws.lightstream.bitflyer.com/json-rpc
-2022/09/15 21:26:34 bitflyer.go:204: 
-2022/09/15 21:27:07 bitflyer.go:180: connencting to wss://ws.lightstream.bitflyer.com/json-rpc
-2022/09/15 21:27:07 bitflyer.go:204: 
-2022/09/15 21:27:16 bitflyer.go:180: connencting to wss://ws.lightstream.bitflyer.m/json-rpc
-2022/09/15 21:27:16 bitflyer.go:184: dial:dial tcp: lookup ws.lightstream.bitflyer.m on 172.20.96.1:53: no such host
-2022/09/15 21:27:28 bitflyer.go:180: connencting to wss://ws.lightstream.bitflyer.com/json-rpc
-2022/09/15 21:27:28 bitflyer.go:204: 
-2022/09/15 21:27:52 bitflyer.go:180: connencting to wss://ws.lightstream.bitflyer.com/json-rpc
-2022/09/15 21:27:52 bitflyer.go:189: lightning_ticker_BTC_USD
-2022/09/15 21:27:52 bitflyer.go:205: 
-2022/09/15 21:28:10 bitflyer.go:180: connencting to wss://ws.lightstream.bitflyer.com/json-rpc
-2022/09/15 21:28:10 bitflyer.go:189: lightning_ticker_BTC_USD
-2022/09/15 21:28:10 bitflyer.go:205: 
-2022/09/15 21:28:34 bitflyer.go:180: connencting to wss://ws.lightstream.bitflyer.com/json-rpc
-2022/09/15 21:28:34 bitflyer.go:189: lightning_ticker_BTC_USD
-2022/09/15 21:28:34 bitflyer.go:207: 
-2022/09/15 21:31:21 bitflyer.go:180: connencting to wss://ws.lightstream.bitflyer.com/json-rpc
-2022/09/15 21:31:21 bitflyer.go:189: lightning_ticker_BTC_USD
-2022/09/15 21:31:21 bitflyer.go:207: 
-2022/09/15 21:33:33 bitflyer.go:180: connencting to wss://lightstream.bitflyer.com/json-rpc
-2022/09/15 21:33:33 bitflyer.go:184: dial:dial tcp: lookup lightstream.bitflyer.com on 172.20.96.1:53: no such host
-2022/09/15 21:35:55 bitflyer.go:180: connencting to wss://ws.lightstream.bitflyer.com/json-rpc
-2022/09/15 21:35:55 bitflyer.go:184: &{101 Switching Protocols 101 HTTP/1.1 1 1 map[Connection:[upgrade] Date:[Thu, 15 Sep 2022 12:35:53 GMT] Sec-Websocket-Accept:[ygNgiRnf0okNQUa11A5B9+4vRtI=] Upgrade:[websocket]] {0xc0000ab440} 0 [] false false map[] 0xc000154200 <nil>}
-2022/09/15 21:35:55 bitflyer.go:192: lightning_ticker_BTC_USD
-2022/09/15 21:35:55 bitflyer.go:210: 
-2022/09/15 21:37:55 bitflyer.go:180: connencting to wss://ws.lightstream.bitflyer.com/json-rpc
-2022/09/15 21:37:55 bitflyer.go:184: &{101 Switching Protocols 101 HTTP/1.1 1 1 map[Connection:[upgrade] Date:[Thu, 15 Sep 2022 12:37:54 GMT] Sec-Websocket-Accept:[SOcz5BV3fWECGGZ2jYaL18o0vl8=] Upgrade:[websocket]] {0xc000184c00} 0 [] false false map[] 0xc000154200 <nil>}
-2022/09/15 21:37:55 bitflyer.go:192: lightning_ticker_BTC_USD
-2022/09/15 21:37:55 bitflyer.go:210: 
-2022/09/15 21:38:23 bitflyer.go:180: connencting to wss://ws.lightstream.bitflyer.com/json-rpc
-2022/09/15 21:38:24 bitflyer.go:189: lightning_ticker_BTC_USD
-2022/09/15 21:38:24 bitflyer.go:206: 
-2022/09/15 21:39:29 bitflyer.go:180: connencting to wss://ws.lightstream.bitflyer.com/json-rpc
-2022/09/15 21:39:29 bitflyer.go:189: lightning_ticker_BTC_USD
-2022/09/15 21:39:29 bitflyer.go:206: 
-2022/09/15 21:41:56 bitflyer.go:180: connencting to wss://ws.lightstream.bitflyer.com/json-rpc
-2022/09/15 21:41:56 bitflyer.go:189: lightning_ticker_BTC_JPY
-2022/09/15 21:41:56 bitflyer.go:206: 
-2022/09/15 21:42:06 bitflyer.go:180: connencting to wss://ws.lightstream.bitflyer.com/json-rpc
-2022/09/15 21:42:06 bitflyer.go:189: lightning_ticker_BTC_JPY
-2022/09/15 21:42:06 bitflyer.go:206: 
-2022/09/15 21:42:11 bitflyer.go:180: connencting to wss://ws.lightstream.bitflyer.com/json-rpc
-2022/09/15 21:42:11 bitflyer.go:189: lightning_ticker_BTC_JPY
-2022/09/15 21:42:11 bitflyer.go:206: 
-2022/09/15 21:42:27 bitflyer.go:180: connencting to wss://ws.lightstream.bitflyer.com/json-rpc
-2022/09/15 21:42:27 bitflyer.go:189: lightning_ticker_BTC_JPY
-2022/09/15 21:42:27 bitflyer.go:206: 
-2022/09/15 21:46:09 bitflyer.go:180: connencting to wss://ws.lightstream.bitflyer.com/json-rpc
-2022/09/15 21:46:09 bitflyer.go:189: lightning_ticker_BTC_JPY
-2022/09/15 21:46:09 bitflyer.go:206: 
-2022/09/15 21:46:57 bitflyer.go:180: connencting to wss://ws.lightstream.bitflyer.com/json-rpc
-2022/09/15 21:46:57 bitflyer.go:189: lightning_ticker_BTC_JPY
-2022/09/15 21:46:57 bitflyer.go:206: 
-2022/09/15 21:47:09 bitflyer.go:180: connencting to wss://ws.lightstream.bitflyer.com/json-rpc
-2022/09/15 21:47:09 bitflyer.go:189: lightning_ticker_BTC_JPY
-2022/09/15 21:47:09 bitflyer.go:206: 
-2022/09/15 21:49:38 bitflyer.go:180: connencting to wss://ws.lightstream.bitflyer.com/json-rpc
-2022/09/15 21:49:38 bitflyer.go:189: lightning_ticker_BTC_JPY
-2022/09/15 21:49:38 bitflyer.go:206: 
-2022/09/15 21:49:52 bitflyer.go:180: connencting to wss://ws.lightstream.bitflyer.com/json-rpc
-2022/09/15 21:49:52 bitflyer.go:189: lightning_ticker_BTC_JPY
-2022/09/15 21:49:52 bitflyer.go:206: {2.0  <nil> <nil> <nil>}
-2022/09/15 21:56:57 bitflyer.go:180: connencting to wss://ws.lightstream.bitflyer.com/json-rpc
-2022/09/15 21:56:57 bitflyer.go:189: lightning_ticker_BTC_JPY
-2022/09/15 21:56:57 bitflyer.go:206: {2.0  <nil> <nil> <nil>}
-2022/09/15 21:57:07 bitflyer.go:180: connencting to wss://ws.lightstream.bitflyer.com/json-rpc
-2022/09/15 21:57:07 bitflyer.go:189: lightning_ticker_BTC_JPY
-2022/09/15 21:57:07 bitflyer.go:206: {2.0  <nil> <nil> <nil>}
-2022/09/15 21:58:53 bitflyer.go:180: connencting to wss://ws.lightstream.bitflyer.com/json-rpc
-2022/09/15 21:58:53 bitflyer.go:206: 2.0
-2022/09/15 21:58:59 bitflyer.go:180: connencting to wss://ws.lightstream.bitflyer.com/json-rpc
-2022/09/15 21:59:00 bitflyer.go:206: 
-2022/09/15 21:59:09 bitflyer.go:180: connencting to wss://ws.lightstream.bitflyer.com/json-rpc
-2022/09/15 21:59:09 bitflyer.go:206: <nil>
-2022/09/15 21:59:31 bitflyer.go:180: connencting to wss://ws.lightstream.bitflyer.com/json-rpc
-2022/09/15 21:59:31 bitflyer.go:206: <nil>
-2022/09/15 21:59:41 bitflyer.go:180: connencting to wss://ws.lightstream.bitflyer.com/json-rpc
-2022/09/15 21:59:41 bitflyer.go:206: <nil>
-2022/09/15 22:00:07 bitflyer.go:180: connencting to wss://ws.lightstream.bitflyer.com/json-rpc
-2022/09/15 22:00:07 bitflyer.go:206: 
-2022/09/15 22:00:29 bitflyer.go:180: connencting to wss://ws.lightstream.bitflyer.com/json-rpc
-2022/09/15 22:00:29 bitflyer.go:206: {2.0  <nil> <nil> <nil>}
-2022/09/15 22:00:53 bitflyer.go:180: connencting to wss://ws.lightstream.bitflyer.com/json-rpc
-2022/09/15 22:00:54 bitflyer.go:206: {  <nil> <nil> <nil>}
-2022/09/15 22:01:13 bitflyer.go:180: connencting to wss://ws.lightstream.bitflyer.com/json-rpc
-2022/09/15 22:01:13 bitflyer.go:189: &{0xc0000e0700 false  0xc0001ae6c0 [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0] <nil> 4110 {0 0 <nil>} <nil> false {0 0} <nil> true 1 <nil> <nil> <nil> 0xc000581920 0 true 0 0 0 [0 0 0 0] 0x6170e0 0x6130e0 0x612f40 0 <nil> false <nil>}
-2022/09/15 22:01:13 bitflyer.go:206: {  <nil> <nil> <nil>}
-2022/09/15 22:02:22 bitflyer.go:180: connencting to wss://ws.lightstream.bitflyer.com/json-rpc
-2022/09/15 22:02:22 bitflyer.go:189: &{0xc00019a000 false  0xc00051cae0 [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0] <nil> 4110 {0 0 <nil>} <nil> false {0 0} <nil> true 1 <nil> <nil> <nil> 0xc000031260 0 true 0 0 0 [0 0 0 0] 0x6170e0 0x6130e0 0x612f40 0 <nil> false <nil>}
-2022/09/15 22:02:22 bitflyer.go:206: {  <nil> <nil> <nil>}
-2022/09/15 22:02:47 bitflyer.go:180: connencting to wss://ws.lightstream.bitflyer.com/json-rpc
-2022/09/15 22:02:47 bitflyer.go:189: &{0xc0000c4000 false  0xc00002eae0 [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0] <nil> 4110 {0 0 <nil>} <nil> false {0 0} <nil> true 1 <nil> <nil> <nil> 0xc0000ae120 0 true 0 0 0 [0 0 0 0] 0x6170e0 0x6130e0 0x612f40 0 <nil> false <nil>}
-2022/09/15 22:02:47 bitflyer.go:206: {2.0  <nil> <nil> <nil>}
-2022/09/15 22:03:50 bitflyer.go:180: connencting to wss://ws.lightstream.bitflyer.com/json-rpc
-2022/09/15 22:03:51 bitflyer.go:205: {2.0  <nil> <nil> <nil>}
-2022/09/15 22:04:35 bitflyer.go:180: connencting to wss://ws.lightstream.bitflyer.com/json-rpc
-2022/09/15 22:04:35 bitflyer.go:205: {2.0  <nil> <nil> <nil>}
-2022/09/15 22:06:01 bitflyer.go:180: connencting to wss://ws.lightstream.bitflyer.com/json-rpc
-2022/09/15 22:06:02 bitflyer.go:205: {2.0  <nil> <nil> <nil>}
-2022/09/15 22:06:26 bitflyer.go:180: connencting to wss://ws.lightstream.bitflyer.com/json-rpc
-2022/09/15 22:06:26 bitflyer.go:205: {2.0  <nil> <nil> <nil>}
-2022/09/15 22:06:52 bitflyer.go:180: connencting to wss://ws.lightstream.bitflyer.com/json-rpc
-2022/09/15 22:06:52 bitflyer.go:205: {2.0  <nil> <nil> <nil>}
-2022/09/15 22:07:20 bitflyer.go:180: connencting to wss://ws.lightstream.bitflyer.com/json-rpc
-2022/09/15 22:07:20 bitflyer.go:205: {2.0  <nil> <nil> <nil>}
-2022/09/15 22:08:13 bitflyer.go:180: connencting to wss://ws.lightstream.bitflyer.com/json-rpc
-2022/09/15 22:08:14 bitflyer.go:205: {2.0  <nil> <nil> <nil>}
-2022/09/15 22:10:34 bitflyer.go:180: connencting to wss://ws.lightstream.bitflyer.com/json-rpc
-2022/09/15 22:10:34 bitflyer.go:205: {  <nil> <nil> <nil>}
-2022/09/15 22:11:24 bitflyer.go:180: connencting to wss://ws.lightstream.bitflyer.com/json-rpc
-2022/09/15 22:11:25 bitflyer.go:205: {2.0  <nil> <nil> <nil>}
-2022/09/15 22:11:32 bitflyer.go:180: connencting to wss://ws.lightstream.bitflyer.com/json-rpc
-2022/09/15 22:11:33 bitflyer.go:205: {2.0  <nil> <nil> <nil>}
-2022/09/15 22:12:59 bitflyer.go:180: connencting to wss://ws.lightstream.bitflyer.com/json-rpc
-2022/09/15 22:13:00 bitflyer.go:191: {2.0 subscribe {lightning_ticker_BTC_JPY} <nil> <nil>}
-2022/09/15 22:13:00 bitflyer.go:207: {2.0  <nil> <nil> <nil>}
-2022/09/15 22:13:12 bitflyer.go:179: connencting to wss://ws.lightstream.bitflyer.com/json-rpc
-2022/09/15 22:13:13 bitflyer.go:190: {2.0 subscribe {lightning_ticker_BTC_JPY}}
-2022/09/15 22:13:13 bitflyer.go:206: {2.0 channelMessage map[channel:lightning_ticker_BTC_JPY message:map[best_ask:2.886e+06 best_ask_size:0.015 best_bid:2.884261e+06 best_bid_size:0.3 ltp:2.884261e+06 market_ask_size:0 market_bid_size:0 product_code:BTC_JPY state:RUNNING tick_id:3.666952e+06 timestamp:2022-09-15T13:13:11.9850774Z total_ask_depth:360.84464207 total_bid_depth:650.40590122 volume:1803.21820134 volume_by_product:1803.21820134]]}
-2022/09/15 22:13:13 bitflyer.go:140: action=DateTime err=parsing time "2022-09-15T11:15:28.04" as "2006-01-02T15:04:05Z07:00": cannot parse "" as "Z07:00"
-2022/09/15 22:13:13 bitflyer.go:140: action=DateTime err=parsing time "2022-09-15T11:15:28.04" as "2006-01-02T15:04:05Z07:00": cannot parse "" as "Z07:00"
-2022/09/15 22:13:13 bitflyer.go:140: action=DateTime err=parsing time "2022-09-15T11:15:28.04" as "2006-01-02T15:04:05Z07:00": cannot parse "" as "Z07:00"
-2022/09/15 22:13:13 bitflyer.go:140: action=DateTime err=parsing time "2022-09-15T11:15:28.04" as "2006-01-02T15:04:05Z07:00": cannot parse "" as "Z07:00"
-2022/09/15 22:13:14 bitflyer.go:206: {2.0 channelMessage map[channel:lightning_ticker_BTC_JPY message:map[best_ask:2.886e+06 best_ask_size:0.015 best_bid:2.884261e+06 best_bid_size:0.3 ltp:2.884261e+06 market_ask_size:0 market_bid_size:0 product_code:BTC_JPY state:RUNNING tick_id:3.666955e+06 timestamp:2022-09-15T13:13:13.2807418Z total_ask_depth:360.74464207 total_bid_depth:650.38590122 volume:1803.21820134 volume_by_product:1803.21820134]]}
-2022/09/15 22:13:14 bitflyer.go:140: action=DateTime err=parsing time "2022-09-15T11:15:28.04" as "2006-01-02T15:04:05Z07:00": cannot parse "" as "Z07:00"
-2022/09/15 22:13:14 bitflyer.go:140: action=DateTime err=parsing time "2022-09-15T11:15:28.04" as "2006-01-02T15:04:05Z07:00": cannot parse "" as "Z07:00"
-2022/09/15 22:13:14 bitflyer.go:140: action=DateTime err=parsing time "2022-09-15T11:15:28.04" as "2006-01-02T15:04:05Z07:00": cannot parse "" as "Z07:00"
-2022/09/15 22:13:14 bitflyer.go:140: action=DateTime err=parsing time "2022-09-15T11:15:28.04" as "2006-01-02T15:04:05Z07:00": cannot parse "" as "Z07:00"
-2022/09/15 22:13:15 bitflyer.go:206: {2.0 channelMessage map[channel:lightning_ticker_BTC_JPY message:map[best_ask:2.885933e+06 best_ask_size:0.008996 best_bid:2.884261e+06 best_bid_size:0.3 ltp:2.884261e+06 market_ask_size:0 market_bid_size:0 product_code:BTC_JPY state:RUNNING tick_id:3.66696e+06 timestamp:2022-09-15T13:13:14.0320527Z total_ask_depth:360.80363807 total_bid_depth:650.40590122 volume:1803.21820134 volume_by_product:1803.21820134]]}
-2022/09/15 22:13:15 bitflyer.go:140: action=DateTime err=parsing time "2022-09-15T11:15:28.04" as "2006-01-02T15:04:05Z07:00": cannot parse "" as "Z07:00"
-2022/09/15 22:13:15 bitflyer.go:140: action=DateTime err=parsing time "2022-09-15T11:15:28.04" as "2006-01-02T15:04:05Z07:00": cannot parse "" as "Z07:00"
-2022/09/15 22:13:15 bitflyer.go:140: action=DateTime err=parsing time "2022-09-15T11:15:28.04" as "2006-01-02T15:04:05Z07:00": cannot parse "" as "Z07:00"
-2022/09/15 22:13:15 bitflyer.go:140: action=DateTime err=parsing time "2022-09-15T11:15:28.04" as "2006-01-02T15:04:05Z07:00": cannot parse "" as "Z07:00"
-2022/09/15 22:14:49 bitflyer.go:180: connencting to wss://ws.lightstream.bitflyer.com/json-rpc
-2022/09/15 22:14:49 bitflyer.go:191: {2.0 subscribe {lightning_ticker_BTC_JPY} <nil> <nil>}
-2022/09/15 22:14:51 bitflyer.go:207: {2.0 channelMessage map[channel:lightning_ticker_BTC_JPY message:map[best_ask:2.886681e+06 best_ask_size:0.02 best_bid:2.884835e+06 best_bid_size:0.3745167 ltp:2.884838e+06 market_ask_size:0 market_bid_size:0 product_code:BTC_JPY state:RUNNING tick_id:3.66735e+06 timestamp:2022-09-15T13:14:50.262268Z total_ask_depth:358.52673599 total_bid_depth:651.34417737 volume:1802.76755777 volume_by_product:1802.76755777]] <nil> <nil>}
-2022/09/15 22:14:51 bitflyer.go:140: action=DateTime err=parsing time "2022-09-15T11:15:28.04" as "2006-01-02T15:04:05Z07:00": cannot parse "" as "Z07:00"
-2022/09/15 22:14:51 bitflyer.go:140: action=DateTime err=parsing time "2022-09-15T11:15:28.04" as "2006-01-02T15:04:05Z07:00": cannot parse "" as "Z07:00"
-2022/09/15 22:14:51 bitflyer.go:140: action=DateTime err=parsing time "2022-09-15T11:15:28.04" as "2006-01-02T15:04:05Z07:00": cannot parse "" as "Z07:00"
-2022/09/15 22:14:51 bitflyer.go:140: action=DateTime err=parsing time "2022-09-15T11:15:28.04" as "2006-01-02T15:04:05Z07:00": cannot parse "" as "Z07:00"
-2022/09/15 22:14:52 bitflyer.go:207: {2.0 channelMessage map[channel:lightning_ticker_BTC_JPY message:map[best_ask:2.886681e+06 best_ask_size:0.02 best_bid:2.884835e+06 best_bid_size:0.3745167 ltp:2.884838e+06 market_ask_size:0 market_bid_size:0 product_code:BTC_JPY state:RUNNING tick_id:3.667352e+06 timestamp:2022-09-15T13:14:50.7820562Z total_ask_depth:358.47396622 total_bid_depth:651.00024973 volume:1802.76755777 volume_by_product:1802.76755777]] <nil> <nil>}
-2022/09/15 22:14:52 bitflyer.go:140: action=DateTime err=parsing time "2022-09-15T11:15:28.04" as "2006-01-02T15:04:05Z07:00": cannot parse "" as "Z07:00"
-2022/09/15 22:14:52 bitflyer.go:140: action=DateTime err=parsing time "2022-09-15T11:15:28.04" as "2006-01-02T15:04:05Z07:00": cannot parse "" as "Z07:00"
-2022/09/15 22:14:52 bitflyer.go:140: action=DateTime err=parsing time "2022-09-15T11:15:28.04" as "2006-01-02T15:04:05Z07:00": cannot parse "" as "Z07:00"
-2022/09/15 22:14:52 bitflyer.go:140: action=DateTime err=parsing time "2022-09-15T11:15:28.04" as "2006-01-02T15:04:05Z07:00": cannot parse "" as "Z07:00"
-2022/09/15 22:14:52 bitflyer.go:207: {2.0 channelMessage map[channel:lightning_ticker_BTC_JPY message:map[best_ask:2.88668e+06 best_ask_size:0.11 best_bid:2.884835e+06 best_bid_size:0.3745167 ltp:2.884838e+06 market_ask_size:0 market_bid_size:0 product_code:BTC_JPY state:RUNNING tick_id:3.66736e+06 timestamp:2022-09-15T13:14:51.4302616Z total_ask_depth:358.95353599 total_bid_depth:651.31704973 volume:1802.76755777 volume_by_product:1802.76755777]] <nil> <nil>}
-2022/09/15 22:14:52 bitflyer.go:140: action=DateTime err=parsing time "2022-09-15T11:15:28.04" as "2006-01-02T15:04:05Z07:00": cannot parse "" as "Z07:00"
-2022/09/15 22:14:52 bitflyer.go:140: action=DateTime err=parsing time "2022-09-15T11:15:28.04" as "2006-01-02T15:04:05Z07:00": cannot parse "" as "Z07:00"
-2022/09/15 22:14:52 bitflyer.go:140: action=DateTime err=parsing time "2022-09-15T11:15:28.04" as "2006-01-02T15:04:05Z07:00": cannot parse "" as "Z07:00"
-2022/09/15 22:14:52 bitflyer.go:140: action=DateTime err=parsing time "2022-09-15T11:15:28.04" as "2006-01-02T15:04:05Z07:00": cannot parse "" as "Z07:00"
-2022/09/15 22:14:53 bitflyer.go:207: {2.0 channelMessage map[channel:lightning_ticker_BTC_JPY message:map[best_ask:2.88668e+06 best_ask_size:0.11 best_bid:2.884835e+06 best_bid_size:0.3745167 ltp:2.884838e+06 market_ask_size:0 market_bid_size:0 product_code:BTC_JPY state:RUNNING tick_id:3.667361e+06 timestamp:2022-09-15T13:14:51.9868864Z total_ask_depth:358.95353599 total_bid_depth:651.33704973 volume:1802.76755777 volume_by_product:1802.76755777]] <nil> <nil>}
-2022/09/15 22:14:53 bitflyer.go:140: action=DateTime err=parsing time "2022-09-15T11:15:28.04" as "2006-01-02T15:04:05Z07:00": cannot parse "" as "Z07:00"
-2022/09/15 22:14:53 bitflyer.go:140: action=DateTime err=parsing time "2022-09-15T11:15:28.04" as "2006-01-02T15:04:05Z07:00": cannot parse "" as "Z07:00"
-2022/09/15 22:14:53 bitflyer.go:140: action=DateTime err=parsing time "2022-09-15T11:15:28.04" as "2006-01-02T15:04:05Z07:00": cannot parse "" as "Z07:00"
-2022/09/15 22:14:53 bitflyer.go:140: action=DateTime err=parsing time "2022-09-15T11:15:28.04" as "2006-01-02T15:04:05Z07:00": cannot parse "" as "Z07:00"
-2022/09/15 22:14:54 bitflyer.go:207: {2.0 channelMessage map[channel:lightning_ticker_BTC_JPY message:map[best_ask:2.88668e+06 best_ask_size:0.11 best_bid:2.884835e+06 best_bid_size:0.3745167 ltp:2.884838e+06 market_ask_size:0 market_bid_size:0 product_code:BTC_JPY state:RUNNING tick_id:3.667362e+06 timestamp:2022-09-15T13:14:53.0349086Z total_ask_depth:358.95353599 total_bid_depth:650.58704973 volume:1802.76755777 volume_by_product:1802.76755777]] <nil> <nil>}
-2022/09/15 22:14:54 bitflyer.go:140: action=DateTime err=parsing time "2022-09-15T11:15:28.04" as "2006-01-02T15:04:05Z07:00": cannot parse "" as "Z07:00"
-2022/09/15 22:14:54 bitflyer.go:140: action=DateTime err=parsing time "2022-09-15T11:15:28.04" as "2006-01-02T15:04:05Z07:00": cannot parse "" as "Z07:00"
-2022/09/15 22:14:54 bitflyer.go:140: action=DateTime err=parsing time "2022-09-15T11:15:28.04" as "2006-01-02T15:04:05Z07:00": cannot parse "" as "Z07:00"
-2022/09/15 22:14:54 bitflyer.go:140: action=DateTime err=parsing time "2022-09-15T11:15:28.04" as "2006-01-02T15:04:05Z07:00": cannot parse "" as "Z07:00"
-2022/09/15 22:15:10 bitflyer.go:180: connencting to wss://ws.lightstream.bitflyer.com/json-rpc
-2022/09/15 22:15:10 bitflyer.go:191: {2.0 subscribe {lightning_ticker_BTC_JPY} <nil> <nil>}
-2022/09/15 22:15:10 bitflyer.go:140: action=DateTime err=parsing time "2022-09-15T11:15:28.04" as "2006-01-02T15:04:05Z07:00": cannot parse "" as "Z07:00"
-2022/09/15 22:15:10 bitflyer.go:140: action=DateTime err=parsing time "2022-09-15T11:15:28.04" as "2006-01-02T15:04:05Z07:00": cannot parse "" as "Z07:00"
-2022/09/15 22:15:10 bitflyer.go:140: action=DateTime err=parsing time "2022-09-15T11:15:28.04" as "2006-01-02T15:04:05Z07:00": cannot parse "" as "Z07:00"
-2022/09/15 22:15:10 bitflyer.go:140: action=DateTime err=parsing time "2022-09-15T11:15:28.04" as "2006-01-02T15:04:05Z07:00": cannot parse "" as "Z07:00"
-2022/09/15 22:15:11 bitflyer.go:140: action=DateTime err=parsing time "2022-09-15T11:15:28.04" as "2006-01-02T15:04:05Z07:00": cannot parse "" as "Z07:00"
-2022/09/15 22:15:11 bitflyer.go:140: action=DateTime err=parsing time "2022-09-15T11:15:28.04" as "2006-01-02T15:04:05Z07:00": cannot parse "" as "Z07:00"
-2022/09/15 22:15:11 bitflyer.go:140: action=DateTime err=parsing time "2022-09-15T11:15:28.04" as "2006-01-02T15:04:05Z07:00": cannot parse "" as "Z07:00"
-2022/09/15 22:15:11 bitflyer.go:140: action=DateTime err=parsing time "2022-09-15T11:15:28.04" as "2006-01-02T15:04:05Z07:00": cannot parse "" as "Z07:00"
-2022/09/15 22:15:11 bitflyer.go:140: action=DateTime err=parsing time "2022-09-15T11:15:28.04" as "2006-01-02T15:04:05Z07:00": cannot parse "" as "Z07:00"
-2022/09/15 22:15:11 bitflyer.go:140: action=DateTime err=parsing time "2022-09-15T11:15:28.04" as "2006-01-02T15:04:05Z07:00": cannot parse "" as "Z07:00"
-2022/09/15 22:15:11 bitflyer.go:140: action=DateTime err=parsing time "2022-09-15T11:15:28.04" as "2006-01-02T15:04:05Z07:00": cannot parse "" as "Z07:00"
-2022/09/15 22:15:11 bitflyer.go:140: action=DateTime err=parsing time "2022-09-15T11:15:28.04" as "2006-01-02T15:04:05Z07:00": cannot parse "" as "Z07:00"
-2022/09/15 22:15:52 bitflyer.go:180: connencting to wss://ws.lightstream.bitflyer.com/json-rpc
-2022/09/15 22:15:53 bitflyer.go:140: action=DateTime err=parsing time "2022-09-15T11:15:28.04" as "2006-01-02T15:04:05Z07:00": cannot parse "" as "Z07:00"
-2022/09/15 22:15:53 bitflyer.go:140: action=DateTime err=parsing time "2022-09-15T11:15:28.04" as "2006-01-02T15:04:05Z07:00": cannot parse "" as "Z07:00"
-2022/09/15 22:15:53 bitflyer.go:140: action=DateTime err=parsing time "2022-09-15T11:15:28.04" as "2006-01-02T15:04:05Z07:00": cannot parse "" as "Z07:00"
-2022/09/15 22:15:53 bitflyer.go:140: action=DateTime err=parsing time "2022-09-15T11:15:28.04" as "2006-01-02T15:04:05Z07:00": cannot parse "" as "Z07:00"
-2022/09/15 22:15:53 bitflyer.go:140: action=DateTime err=parsing time "2022-09-15T11:15:28.04" as "2006-01-02T15:04:05Z07:00": cannot parse "" as "Z07:00"
-2022/09/15 22:15:53 bitflyer.go:140: action=DateTime err=parsing time "2022-09-15T11:15:28.04" as "2006-01-02T15:04:05Z07:00": cannot parse "" as "Z07:00"
-2022/09/15 22:15:53 bitflyer.go:140: action=DateTime err=parsing time "2022-09-15T11:15:28.04" as "2006-01-02T15:04:05Z07:00": cannot parse "" as "Z07:00"
-2022/09/15 22:15:53 bitflyer.go:140: action=DateTime err=parsing time "2022-09-15T11:15:28.04" as "2006-01-02T15:04:05Z07:00": cannot parse "" as "Z07:00"
-2022/09/15 22:15:54 bitflyer.go:140: action=DateTime err=parsing time "2022-09-15T11:15:28.04" as "2006-01-02T15:04:05Z07:00": cannot parse "" as "Z07:00"
-2022/09/15 22:15:54 bitflyer.go:140: action=DateTime err=parsing time "2022-09-15T11:15:28.04" as "2006-01-02T15:04:05Z07:00": cannot parse "" as "Z07:00"
-2022/09/15 22:15:54 bitflyer.go:140: action=DateTime err=parsing time "2022-09-15T11:15:28.04" as "2006-01-02T15:04:05Z07:00": cannot parse "" as "Z07:00"
-2022/09/15 22:15:54 bitflyer.go:140: action=DateTime err=parsing time "2022-09-15T11:15:28.04" as "2006-01-02T15:04:05Z07:00": cannot parse "" as "Z07:00"
-2022/09/15 22:16:16 bitflyer.go:180: connencting to wss://ws.lightstream.bitflyer.com/json-rpc
-2022/09/15 22:16:17 bitflyer.go:140: action=DateTime err=parsing time "2022-09-15T11:15:28.04" as "2006-01-02T15:04:05Z07:00": cannot parse "" as "Z07:00"
-2022/09/15 22:16:17 bitflyer.go:140: action=DateTime err=parsing time "2022-09-15T11:15:28.04" as "2006-01-02T15:04:05Z07:00": cannot parse "" as "Z07:00"
-2022/09/15 22:16:17 bitflyer.go:140: action=DateTime err=parsing time "2022-09-15T11:15:28.04" as "2006-01-02T15:04:05Z07:00": cannot parse "" as "Z07:00"
-2022/09/15 22:16:18 bitflyer.go:140: action=DateTime err=parsing time "2022-09-15T11:15:28.04" as "2006-01-02T15:04:05Z07:00": cannot parse "" as "Z07:00"
-2022/09/15 22:16:18 bitflyer.go:140: action=DateTime err=parsing time "2022-09-15T11:15:28.04" as "2006-01-02T15:04:05Z07:00": cannot parse "" as "Z07:00"
-2022/09/15 22:16:18 bitflyer.go:140: action=DateTime err=parsing time "2022-09-15T11:15:28.04" as "2006-01-02T15:04:05Z07:00": cannot parse "" as "Z07:00"
-2022/09/15 22:16:18 bitflyer.go:140: action=DateTime err=parsing time "2022-09-15T11:15:28.04" as "2006-01-02T15:04:05Z07:00": cannot parse "" as "Z07:00"
-2022/09/15 22:16:39 bitflyer.go:179: connencting to wss://ws.lightstream.bitflyer.com/json-rpc
-2022/09/15 22:19:27 bitflyer.go:179: connencting to wss://ws.lightstream.bitflyer.com/json-rpc
-2022/09/15 22:20:04 bitflyer.go:179: connencting to wss://ws.lightstream.bitflyer.com/json-rpc
-2022/09/17 21:25:29 bitflyer.go:62: action=doRequest endpoint=https://api.bitflyer.com/v1/me/sendchildorder
-2022/09/17 21:25:29 bitflyer.go:31: 1663417529
-2022/09/17 21:26:24 bitflyer.go:62: action=doRequest endpoint=https://api.bitflyer.com/v1/me/sendchildorder
-2022/09/17 21:26:24 bitflyer.go:31: 1663417584
-2022/09/17 21:28:11 bitflyer.go:61: action=doRequest endpoint=https://api.bitflyer.com/v1/me/sendchildorder
-2022/09/17 21:30:11 bitflyer.go:61: action=doRequest endpoint=https://api.bitflyer.com/v1/me/sendchildorder
-2022/09/17 21:30:40 bitflyer.go:61: action=doRequest endpoint=https://api.bitflyer.com/v1/me/sendchildorder
-2022/09/17 21:30:40 bitflyer.go:267: [123 34 115 116 97 116 117 115 34 58 45 49 49 48 44 34 101 114 114 111 114 95 109 101 115 115 97 103 101 34 58 34 84 104 101 32 109 105 110 105 109 117 109 32 111 114 100 101 114 32 115 105 122 101 32 105 115 32 48 46 48 48 49 32 66 84 67 46 34 44 34 100 97 116 97 34 58 110 117 108 108 125]
-2022/09/17 21:30:49 bitflyer.go:61: action=doRequest endpoint=https://api.bitflyer.com/v1/me/sendchildorder
-2022/09/17 21:30:49 bitflyer.go:267: {"status":-110,"error_message":"The minimum order size is 0.001 BTC.","data":null}
-2022/09/17 21:36:22 bitflyer.go:61: action=doRequest endpoint=https://api.bitflyer.com/v1/me/sendchildorder
-2022/09/17 21:36:22 bitflyer.go:269: {"status":-110,"error_message":"The minimum order size is 0.001 BTC.","data":null}
-2022/09/17 21:36:22 main.go:42: Error:  The minimum order size is 0.001 BTC.
-2022/09/17 21:37:23 bitflyer.go:61: action=doRequest endpoint=https://api.bitflyer.com/v1/me/sendchildorder
-2022/09/17 21:37:24 bitflyer.go:269: {"status":-110,"error_message":"The minimum order size is 0.001 BTC.","data":null}
-2022/09/17 21:37:24 main.go:42: status : -110, Error: The minimum order size is 0.001 BTC.
-2022/09/17 21:37:40 bitflyer.go:61: action=doRequest endpoint=https://api.bitflyer.com/v1/me/sendchildorder
-2022/09/17 21:37:41 main.go:42: status : -110, Error: The minimum order size is 0.001 BTC.
-2022/09/17 21:38:05 bitflyer.go:61: action=doRequest endpoint=https://api.bitflyer.com/v1/me/sendchildorder
-2022/09/17 21:38:05 main.go:42: status : -200, Error: Insufficient funds
-2022/09/17 21:42:16 bitflyer.go:61: action=doRequest endpoint=https://api.bitflyer.com/1/me/getchildorders
-2022/09/17 21:44:07 bitflyer.go:61: action=doRequest endpoint=https://api.bitflyer.com/1/me/getchildorders
+2022/09/20 17:43:44 bitflyer.go:178: connencting to wss://ws.lightstream.bitflyer.com/json-rpc
+2022/09/20 17:45:02 bitflyer.go:178: connencting to wss://ws.lightstream.bitflyer.com/json-rpc
+2022/09/20 17:46:54 bitflyer.go:178: connencting to wss://ws.lightstream.bitflyer.com/json-rpc
+2022/09/20 17:47:32 bitflyer.go:178: connencting to wss://ws.lightstream.bitflyer.com/json-rpc
+2022/09/20 17:49:05 streamdata.go:12: QXLQNX6uu4hLsVhx7eocpV
+2022/09/20 17:49:05 streamdata.go:13: QpTN7Ax1Ih59F2ItzCdgoD7VEuyLfrD3WCB5v1lipnM=
+2022/09/20 17:49:05 bitflyer.go:178: connencting to wss://ws.lightstream.bitflyer.com/json-rpc
+2022/09/20 17:50:12 streamdata.go:13: &{QXLQNX6uu4hLsVhx7eocpV QpTN7Ax1Ih59F2ItzCdgoD7VEuyLfrD3WCB5v1lipnM= 0xc000113230}
+2022/09/20 17:50:12 bitflyer.go:178: connencting to wss://ws.lightstream.bitflyer.com/json-rpc
+2022/09/20 17:50:49 bitflyer.go:178: connencting to wss://ws.lightstream.bitflyer.com/json-rpc
+2022/09/20 17:51:15 bitflyer.go:178: connencting to wss://ws.lightstream.bitflyer.com/json-rpc
+2022/09/20 17:55:06 bitflyer.go:178: connencting to wss://ws.lightstream.bitflyer.com/json-rpc
+2022/09/20 17:55:06 bitflyer.go:187: lightning_ticker_BTC_JPY
+2022/09/20 17:55:42 bitflyer.go:178: connencting to wss://ws.lightstream.bitflyer.com/json-rpc
+2022/09/20 17:55:42 bitflyer.go:187: lightning_ticker_BTC_JPY
+2022/09/20 17:56:00 bitflyer.go:178: connencting to wss://ws.lightstream.bitflyer.com/json-rpc
+2022/09/20 17:56:00 bitflyer.go:187: lightning_ticker_BTC_JPY
+2022/09/20 17:56:44 bitflyer.go:178: connencting to wss://ws.lightstream.bitflyer.com/json-rpc
+2022/09/20 17:56:44 bitflyer.go:187: lightning_ticker_BTC_JPY
+2022/09/20 17:56:44 bitflyer.go:204: map[channel:lightning_ticker_BTC_JPY message:map[best_ask:2.774337e+06 best_ask_size:0.06 best_bid:2.772949e+06 best_bid_size:0.34 ltp:2.773254e+06 market_ask_size:0 market_bid_size:0 product_code:BTC_JPY state:RUNNING tick_id:67484 timestamp:2022-09-20T08:56:44.3781879Z total_ask_depth:372.12425129 total_bid_depth:579.56559886 volume:2010.81833605 volume_by_product:2010.81833605]]
+2022/09/20 17:57:45 bitflyer.go:178: connencting to wss://ws.lightstream.bitflyer.com/json-rpc
+2022/09/20 17:57:45 bitflyer.go:187: lightning_ticker_BTC_JPY
+2022/09/20 17:57:46 bitflyer.go:204: map[string]interface {}, map[channel:lightning_ticker_BTC_JPY message:map[best_ask:%!s(float64=2.774568e+06) best_ask_size:%!s(float64=0.05) best_bid:%!s(float64=2.772995e+06) best_bid_size:%!s(float64=0.016) ltp:%!s(float64=2.772995e+06) market_ask_size:%!s(float64=0) market_bid_size:%!s(float64=0) product_code:BTC_JPY state:RUNNING tick_id:%!s(float64=67771) timestamp:2022-09-20T08:57:46.0051081Z total_ask_depth:%!s(float64=372.64946744) total_bid_depth:%!s(float64=580.52720056) volume:%!s(float64=2010.76561921) volume_by_product:%!s(float64=2010.76561921)]]
+2022/09/20 17:58:19 bitflyer.go:178: connencting to wss://ws.lightstream.bitflyer.com/json-rpc
+2022/09/20 17:58:19 bitflyer.go:187: lightning_ticker_BTC_JPY
+2022/09/20 17:58:21 bitflyer.go:206: map[channel:lightning_ticker_BTC_JPY message:map[best_ask:2.774568e+06 best_ask_size:0.05 best_bid:2.772952e+06 best_bid_size:0.03 ltp:2.772995e+06 market_ask_size:0 market_bid_size:0 product_code:BTC_JPY state:RUNNING tick_id:67888 timestamp:2022-09-20T08:58:21.0179866Z total_ask_depth:372.58197807 total_bid_depth:580.50479961 volume:2010.49729414 volume_by_product:2010.49729414]]
+2022/09/20 17:59:35 bitflyer.go:178: connencting to wss://ws.lightstream.bitflyer.com/json-rpc
+2022/09/20 17:59:35 bitflyer.go:207: map[best_ask:2.773994e+06 best_ask_size:0.005 best_bid:2.773001e+06 best_bid_size:0.1 ltp:2.773526e+06 market_ask_size:0 market_bid_size:0 product_code:BTC_JPY state:RUNNING tick_id:68344 timestamp:2022-09-20T08:59:35.4667495Z total_ask_depth:372.40400374 total_bid_depth:578.03771179 volume:2010.44129414 volume_by_product:2010.44129414]
+2022/09/20 18:00:28 bitflyer.go:178: connencting to wss://ws.lightstream.bitflyer.com/json-rpc
+2022/09/20 18:01:42 bitflyer.go:178: connencting to wss://ws.lightstream.bitflyer.com/json-rpc
+2022/09/20 18:01:42 bitflyer.go:215: {BTC_JPY RUNNING 2022-09-20T09:01:42.8192103Z 69140 2.775418e+06 2.777084e+06 0.021008 0.33 581.1733472 376.65994485 0 0 2.775418e+06 2010.20916823 2010.20916823}
+2022/09/20 18:04:37 bitflyer.go:178: connencting to wss://ws.lightstream.bitflyer.com/json-rpc
+2022/09/20 18:04:37 bitflyer.go:215: {BTC_JPY RUNNING 2022-09-20T09:04:37.567612Z 70424 2.773056e+06 2.774846e+06 0.33 0.01000155 580.27136024 377.45220517 0 0 2.774483e+06 2009.76902559 2009.76902559}
+2022/09/20 18:09:19 bitflyer.go:178: connencting to wss://ws.lightstream.bitflyer.com/json-rpc
+2022/09/20 18:09:19 bitflyer.go:215: {BTC_JPY RUNNING 2022-09-20T09:09:19.5078147Z 72422 2.77104e+06 2.773329e+06 0.03 0.01000055 578.77419894 377.02857986 0 0 2.772115e+06 2015.33619903 2015.33619903}
+2022/09/20 18:15:11 bitflyer.go:178: connencting to wss://ws.lightstream.bitflyer.com/json-rpc
+2022/09/20 18:15:12 bitflyer.go:215: {BTC_JPY RUNNING 2022-09-20T09:15:12.475326Z 74889 2.772478e+06 2.773796e+06 0.01 0.019996 577.82315763 376.59181752 0 0 2.772502e+06 2014.26814193 2014.26814193}
+2022/09/20 18:18:22 bitflyer.go:178: connencting to wss://ws.lightstream.bitflyer.com/json-rpc
+2022/09/20 18:18:23 bitflyer.go:215: {BTC_JPY RUNNING 2022-09-20T09:18:22.971692Z 75933 2.7735e+06 2.773613e+06 0.9 0.14 582.55116442 376.49937807 0 0 2.773499e+06 2005.84571561 2005.84571561}
+2022/09/20 18:22:16 bitflyer.go:178: connencting to wss://ws.lightstream.bitflyer.com/json-rpc
+2022/09/20 18:34:38 bitflyer.go:178: connencting to wss://ws.lightstream.bitflyer.com/json-rpc
+2022/09/20 18:48:04 bitflyer.go:178: connencting to wss://ws.lightstream.bitflyer.com/json-rpc
+2022/09/20 18:49:59 bitflyer.go:178: connencting to wss://ws.lightstream.bitflyer.com/json-rpc
+2022/09/20 18:50:30 bitflyer.go:178: connencting to wss://ws.lightstream.bitflyer.com/json-rpc
+2022/09/20 18:50:31 bitflyer.go:215: ここまで
+2022/09/20 18:52:00 streamdata.go:15: ここまで
+2022/09/20 18:52:00 bitflyer.go:178: connencting to wss://ws.lightstream.bitflyer.com/json-rpc
+2022/09/20 18:52:01 streamdata.go:17: action=StreanIgestionDate, {BTC_JPY RUNNING 2022-09-20T09:52:00.8796524Z 95301 2.761989e+06 2.764076e+06 0.055667 0.05 574.60598187 376.25735802 0 0 2.761286e+06 1989.47120087 1989.47120087}
+2022/09/20 18:55:56 bitflyer.go:178: connencting to wss://ws.lightstream.bitflyer.com/json-rpc
+2022/09/20 18:55:56 streamdata.go:16: action=StreanIgestionDate, {BTC_JPY RUNNING 2022-09-20T09:55:56.4820292Z 97366 2.761893e+06 2.763784e+06 0.038 0.038 572.78047287 371.50024386 0 0 2.76307e+06 1988.68428901 1988.68428901}
+2022/09/20 18:56:53 bitflyer.go:178: connencting to wss://ws.lightstream.bitflyer.com/json-rpc
+2022/09/20 18:56:54 streamdata.go:16: action=StreanIgestionDate, {BTC_JPY RUNNING 2022-09-20T09:56:54.0511901Z 97903 2.761906e+06 2.76337e+06 0.038 0.1 574.17004289 374.06126553 0 0 2.763165e+06 1988.19328901 1988.19328901}
+2022/09/20 18:57:08 bitflyer.go:178: connencting to wss://ws.lightstream.bitflyer.com/json-rpc
+2022/09/20 18:57:08 streamdata.go:16: action=StreanIgestionDate, {BTC_JPY RUNNING 2022-09-20T09:57:08.3679816Z 98050 2.763125e+06 2.764353e+06 0.05 0.10682 574.19810802 372.82106806 0 0 2.763092e+06 1987.95330545 1987.95330545}
+2022/09/20 19:00:24 bitflyer.go:178: connencting to wss://ws.lightstream.bitflyer.com/json-rpc
+2022/09/20 19:00:25 streamdata.go:16: action=StreanIgestionDate, {BTC_JPY RUNNING 2022-09-20T10:00:25.4345989Z 99548 2.762393e+06 2.763505e+06 0.01 0.7 572.0913935 376.03301556 0 0 2.762507e+06 1987.64775319 1987.64775319}
+2022/09/20 19:02:05 bitflyer.go:178: connencting to wss://ws.lightstream.bitflyer.com/json-rpc
+2022/09/20 19:02:06 streamdata.go:16: action=StreanIgestionDate, {BTC_JPY RUNNING 2022-09-20T10:02:05.990178Z 100315 2.760396e+06 2.761824e+06 0.01 0.02 571.07322128 376.85305087 0 0 2.761396e+06 1986.74863319 1986.74863319}
+2022/09/20 19:02:45 bitflyer.go:178: connencting to wss://ws.lightstream.bitflyer.com/json-rpc
+2022/09/20 19:02:46 streamdata.go:16: action=StreanIgestionDate, {BTC_JPY RUNNING 2022-09-20T10:02:46.417421Z 100909 2.756588e+06 2.758416e+06 0.29 0.04 569.56247997 376.1073396 0 0 2.756588e+06 1987.02463319 1987.02463319}
+2022/09/20 19:07:40 bitflyer.go:178: connencting to wss://ws.lightstream.bitflyer.com/json-rpc
+2022/09/20 19:07:41 streamdata.go:16: action=StreanIgestionDate, {BTC_JPY RUNNING 2022-09-20T10:07:41.1258064Z 102868 2.7589e+06 2.760626e+06 0.01 0.05162334 569.8147662 377.15463582 0 0 2.759176e+06 1984.24070487 1984.24070487}
+2022/09/20 19:07:41 streamdata.go:16: action=StreanIgestionDate, {BTC_JPY RUNNING 2022-09-20T10:07:41.8314097Z 102880 2.7589e+06 2.760626e+06 0.01 0.39162334 570.12337809 376.75953178 0 0 2.759176e+06 1984.24070487 1984.24070487}
+2022/09/20 19:07:42 streamdata.go:16: action=StreanIgestionDate, {BTC_JPY RUNNING 2022-09-20T10:07:42.3704234Z 102884 2.759173e+06 2.760626e+06 0.01 0.39162334 570.32337809 376.75953178 0 0 2.759176e+06 1984.24070487 1984.24070487}
+2022/09/20 19:07:43 streamdata.go:16: action=StreanIgestionDate, {BTC_JPY RUNNING 2022-09-20T10:07:43.0391249Z 102886 2.759173e+06 2.760626e+06 0.01 0.39162334 570.32337809 377.029569 0 0 2.759176e+06 1984.24070487 1984.24070487}
+2022/09/20 19:07:43 streamdata.go:16: action=StreanIgestionDate, {BTC_JPY RUNNING 2022-09-20T10:07:43.5804854Z 102890 2.759173e+06 2.760626e+06 0.01 0.39162334 570.18337809 377.059569 0 0 2.759176e+06 1984.24070487 1984.24070487}
+2022/09/20 19:07:44 streamdata.go:16: action=StreanIgestionDate, {BTC_JPY RUNNING 2022-09-20T10:07:44.2949227Z 102892 2.759173e+06 2.760626e+06 0.01 0.39162334 569.98337809 377.059569 0 0 2.759176e+06 1984.24070487 1984.24070487}
+2022/09/20 19:09:11 bitflyer.go:178: connencting to wss://ws.lightstream.bitflyer.com/json-rpc
+2022/09/20 19:09:11 streamdata.go:16: action=StreanIgestionDate, {BTC_JPY RUNNING 2022-09-20T10:09:11.8741756Z 103550 2.760313e+06 2.761885e+06 0.09 0.11 570.95321797 371.58097923 0 0 2.760127e+06 1982.77087235 1982.77087235}
+2022/09/20 19:09:12 streamdata.go:16: action=StreanIgestionDate, {BTC_JPY RUNNING 2022-09-20T10:09:12.3825775Z 103556 2.760313e+06 2.761885e+06 0.09 0.11 570.88371697 371.55097923 0 0 2.760127e+06 1982.77087235 1982.77087235}
+2022/09/20 19:09:13 streamdata.go:16: action=StreanIgestionDate, {BTC_JPY RUNNING 2022-09-20T10:09:12.9596541Z 103560 2.760313e+06 2.761885e+06 0.09 0.11 570.76371697 371.60087923 0 0 2.760127e+06 1982.77087235 1982.77087235}
+2022/09/20 19:09:13 streamdata.go:16: action=StreanIgestionDate, {BTC_JPY RUNNING 2022-09-20T10:09:13.7543274Z 103569 2.760313e+06 2.761739e+06 0.05 0.05 570.84271697 371.35893369 0 0 2.760313e+06 1982.78087235 1982.78087235}
+2022/09/20 19:09:14 streamdata.go:16: action=StreanIgestionDate, {BTC_JPY RUNNING 2022-09-20T10:09:14.353866Z 103578 2.760313e+06 2.761739e+06 0.05 0.05 570.83884481 371.32133369 0 0 2.760313e+06 1982.78087235 1982.78087235}
+2022/09/20 19:09:15 streamdata.go:16: action=StreanIgestionDate, {BTC_JPY RUNNING 2022-09-20T10:09:14.9460516Z 103586 2.760313e+06 2.761739e+06 0.03 0.05 570.90787359 372.04123369 0 0 2.760313e+06 1982.78087235 1982.78087235}
+2022/09/20 19:09:15 streamdata.go:16: action=StreanIgestionDate, {BTC_JPY RUNNING 2022-09-20T10:09:15.8440023Z 103589 2.760313e+06 2.761739e+06 0.03 0.05 570.76787359 371.34123369 0 0 2.760313e+06 1982.78087235 1982.78087235}
+2022/09/20 19:09:16 streamdata.go:16: action=StreanIgestionDate, {BTC_JPY RUNNING 2022-09-20T10:09:16.605934Z 103592 2.760313e+06 2.761739e+06 0.03 0.05 570.70297359 374.91123369 0 0 2.760313e+06 1982.78087235 1982.78087235}
+2022/09/20 19:12:28 bitflyer.go:178: connencting to wss://ws.lightstream.bitflyer.com/json-rpc
+2022/09/20 19:12:28 streamdata.go:16: action=StreanIgestionDate, {BTC_JPY RUNNING 2022-09-20T10:12:28.4730065Z 104699 2.761244e+06 2.762314e+06 0.020001 0.1 572.07325128 373.02156186 0 0 2.76206e+06 1981.81191707 1981.81191707}
+2022/09/20 19:12:28 candole.go:65: no such column: highm
+2022/09/20 19:12:28 candole.go:42: 5 values for 6 columns
+2022/09/20 19:12:28 candole.go:65: no such column: highm
+2022/09/20 19:12:28 candole.go:42: 5 values for 6 columns
+2022/09/20 19:12:28 candole.go:65: no such column: highm
+2022/09/20 19:12:28 candole.go:42: 5 values for 6 columns
+2022/09/20 19:12:29 streamdata.go:16: action=StreanIgestionDate, {BTC_JPY RUNNING 2022-09-20T10:12:28.9349732Z 104708 2.761238e+06 2.762314e+06 0.47 0.1 572.43325028 373.15156186 0 0 2.76206e+06 1981.81191707 1981.81191707}
+2022/09/20 19:12:29 candole.go:65: no such column: highm
+2022/09/20 19:12:29 candole.go:42: 5 values for 6 columns
+2022/09/20 19:12:29 candole.go:65: no such column: highm
+2022/09/20 19:12:29 candole.go:42: 5 values for 6 columns
+2022/09/20 19:12:29 candole.go:65: no such column: highm
+2022/09/20 19:12:29 candole.go:42: 5 values for 6 columns
+2022/09/20 19:12:29 streamdata.go:16: action=StreanIgestionDate, {BTC_JPY RUNNING 2022-09-20T10:12:29.5734499Z 104716 2.761238e+06 2.762314e+06 0.47 0.1 573.02415028 373.06593171 0 0 2.76206e+06 1981.81191707 1981.81191707}
+2022/09/20 19:12:29 candole.go:65: no such column: highm
+2022/09/20 19:12:29 candole.go:42: 5 values for 6 columns
+2022/09/20 19:12:29 candole.go:65: no such column: highm
+2022/09/20 19:12:29 candole.go:42: 5 values for 6 columns
+2022/09/20 19:12:29 candole.go:65: no such column: highm
+2022/09/20 19:12:29 candole.go:42: 5 values for 6 columns
+2022/09/20 19:12:30 streamdata.go:16: action=StreanIgestionDate, {BTC_JPY RUNNING 2022-09-20T10:12:30.0694666Z 104728 2.76136e+06 2.762654e+06 0.020001 0.001 572.56285128 369.38156186 0 0 2.762314e+06 1981.91191707 1981.91191707}
+2022/09/20 19:12:30 candole.go:65: no such column: highm
+2022/09/20 19:12:30 candole.go:42: 5 values for 6 columns
+2022/09/20 19:12:30 candole.go:65: no such column: highm
+2022/09/20 19:12:30 candole.go:42: 5 values for 6 columns
+2022/09/20 19:12:30 candole.go:65: no such column: highm
+2022/09/20 19:12:30 candole.go:42: 5 values for 6 columns
+2022/09/20 19:13:42 bitflyer.go:178: connencting to wss://ws.lightstream.bitflyer.com/json-rpc
+2022/09/20 19:13:43 streamdata.go:16: action=StreanIgestionDate, {BTC_JPY RUNNING 2022-09-20T10:13:43.090767Z 105508 2.765444e+06 2.765742e+06 0.468 0.45658546 573.97777373 374.92231341 0 0 2.765742e+06 1983.44069254 1983.44069254}
+2022/09/20 19:13:43 candole.go:65: sql: no rows in result set
+2022/09/20 19:13:43 candole.go:42: 5 values for 6 columns
+2022/09/20 19:13:43 candole.go:65: sql: no rows in result set
+2022/09/20 19:13:43 candole.go:42: 5 values for 6 columns
+2022/09/20 19:13:43 candole.go:65: sql: no rows in result set
+2022/09/20 19:13:43 candole.go:42: 5 values for 6 columns
+2022/09/20 19:13:43 streamdata.go:16: action=StreanIgestionDate, {BTC_JPY RUNNING 2022-09-20T10:13:43.6651282Z 105514 2.765444e+06 2.765742e+06 0.468 0.44658546 574.67777373 375.04231341 0 0 2.765742e+06 1983.45069254 1983.45069254}
+2022/09/20 19:13:43 candole.go:65: sql: no rows in result set
+2022/09/20 19:13:43 candole.go:42: 5 values for 6 columns
+2022/09/20 19:13:43 candole.go:65: sql: no rows in result set
+2022/09/20 19:13:43 candole.go:42: 5 values for 6 columns
+2022/09/20 19:13:43 candole.go:65: sql: no rows in result set
+2022/09/20 19:13:43 candole.go:42: 5 values for 6 columns
+2022/09/20 19:13:44 streamdata.go:16: action=StreanIgestionDate, {BTC_JPY RUNNING 2022-09-20T10:13:44.4327824Z 105517 2.765444e+06 2.765742e+06 0.31001879 0.41658546 573.81979252 375.01231341 0 0 2.765444e+06 1983.63867375 1983.63867375}
+2022/09/20 19:13:44 candole.go:65: sql: no rows in result set
+2022/09/20 19:13:44 candole.go:42: 5 values for 6 columns
+2022/09/20 19:13:44 candole.go:65: sql: no rows in result set
+2022/09/20 19:13:44 candole.go:42: 5 values for 6 columns
+2022/09/20 19:13:44 candole.go:65: sql: no rows in result set
+2022/09/20 19:13:44 candole.go:42: 5 values for 6 columns
+2022/09/20 19:13:45 streamdata.go:16: action=StreanIgestionDate, {BTC_JPY RUNNING 2022-09-20T10:13:44.9748315Z 105520 2.765444e+06 2.765742e+06 0.0775047 0.41658546 573.39627843 374.99241341 0 0 2.765444e+06 1983.87118784 1983.87118784}
+2022/09/20 19:13:45 candole.go:65: sql: no rows in result set
+2022/09/20 19:13:45 candole.go:42: 5 values for 6 columns
+2022/09/20 19:13:45 candole.go:65: sql: no rows in result set
+2022/09/20 19:13:45 candole.go:42: 5 values for 6 columns
+2022/09/20 19:13:45 candole.go:65: sql: no rows in result set
+2022/09/20 19:13:45 candole.go:42: 5 values for 6 columns
+2022/09/20 20:05:40 bitflyer.go:178: connencting to wss://ws.lightstream.bitflyer.com/json-rpc
+2022/09/20 20:05:41 streamdata.go:16: action=StreanIgestionDate, {BTC_JPY RUNNING 2022-09-20T11:05:41.1433302Z 128453 2.772149e+06 2.773687e+06 0.01 0.03 576.88090068 381.30383011 0 0 2.773107e+06 1849.46676629 1849.46676629}
+2022/09/20 20:05:41 candole.go:65: sql: no rows in result set
+2022/09/20 20:05:41 candole.go:42: 5 values for 6 columns
+2022/09/20 20:05:41 candole.go:65: sql: no rows in result set
+2022/09/20 20:05:41 candole.go:42: 5 values for 6 columns
+2022/09/20 20:05:41 candole.go:65: sql: no rows in result set
+2022/09/20 20:05:41 candole.go:42: 5 values for 6 columns
+2022/09/20 20:05:41 streamdata.go:16: action=StreanIgestionDate, {BTC_JPY RUNNING 2022-09-20T11:05:41.6811331Z 128460 2.772149e+06 2.773686e+06 0.01 0.1 577.26650392 380.29383011 0 0 2.773107e+06 1849.46676629 1849.46676629}
+2022/09/20 20:05:41 candole.go:65: sql: no rows in result set
+2022/09/20 20:05:41 candole.go:42: 5 values for 6 columns
+2022/09/20 20:05:41 candole.go:65: sql: no rows in result set
+2022/09/20 20:05:41 candole.go:42: 5 values for 6 columns
+2022/09/20 20:05:41 candole.go:65: sql: no rows in result set
+2022/09/20 20:05:41 candole.go:42: 5 values for 6 columns
+2022/09/20 20:05:42 streamdata.go:16: action=StreanIgestionDate, {BTC_JPY RUNNING 2022-09-20T11:05:42.3528566Z 128465 2.772149e+06 2.773686e+06 0.01 0.03 577.26650392 380.19383011 0 0 2.773107e+06 1849.46676629 1849.46676629}
+2022/09/20 20:05:42 candole.go:65: sql: no rows in result set
+2022/09/20 20:05:42 candole.go:42: 5 values for 6 columns
+2022/09/20 20:05:42 candole.go:65: sql: no rows in result set
+2022/09/20 20:05:42 candole.go:42: 5 values for 6 columns
+2022/09/20 20:05:42 candole.go:65: sql: no rows in result set
+2022/09/20 20:05:42 candole.go:42: 5 values for 6 columns
+2022/09/20 20:09:40 bitflyer.go:178: connencting to wss://ws.lightstream.bitflyer.com/json-rpc
+2022/09/20 20:09:41 streamdata.go:16: action=StreanIgestionDate, {BTC_JPY RUNNING 2022-09-20T11:09:41.2947057Z 130669 2.772511e+06 2.773618e+06 0.03 0.03 578.07189445 380.08854281 0 0 2.772772e+06 1842.18958417 1842.18958417}
+2022/09/20 20:09:41 candole.go:65: sql: no rows in result set
+2022/09/20 20:09:41 candole.go:42: 5 values for 6 columns
+2022/09/20 20:09:41 candole.go:65: sql: no rows in result set
+2022/09/20 20:09:41 candole.go:42: 5 values for 6 columns
+2022/09/20 20:09:41 candole.go:65: sql: no rows in result set
+2022/09/20 20:09:41 candole.go:42: 5 values for 6 columns
+2022/09/20 20:09:41 streamdata.go:16: action=StreanIgestionDate, {BTC_JPY RUNNING 2022-09-20T11:09:41.9556557Z 130673 2.772511e+06 2.773618e+06 0.03 0.03 578.41189445 380.42854281 0 0 2.772772e+06 1842.18958417 1842.18958417}
+2022/09/20 20:09:41 candole.go:65: sql: no rows in result set
+2022/09/20 20:09:41 candole.go:42: 5 values for 6 columns
+2022/09/20 20:09:41 candole.go:65: sql: no rows in result set
+2022/09/20 20:09:41 candole.go:42: 5 values for 6 columns
+2022/09/20 20:09:41 candole.go:65: sql: no rows in result set
+2022/09/20 20:09:41 candole.go:42: 5 values for 6 columns
+2022/09/20 20:09:51 bitflyer.go:178: connencting to wss://ws.lightstream.bitflyer.com/json-rpc
+2022/09/20 20:09:52 streamdata.go:16: action=StreanIgestionDate, {BTC_JPY RUNNING 2022-09-20T11:09:52.1262169Z 130746 2.772065e+06 2.773448e+06 0.02 0.378 576.96562816 381.00925334 0 0 2.772495e+06 1842.29958417 1842.29958417}
+2022/09/20 20:09:52 candole.go:65: sql: no rows in result set
+2022/09/20 20:09:52 candole.go:65: sql: no rows in result set
+2022/09/20 20:09:52 candole.go:65: sql: no rows in result set
+2022/09/20 20:09:52 streamdata.go:16: action=StreanIgestionDate, {BTC_JPY RUNNING 2022-09-20T11:09:52.5813993Z 130756 2.771925e+06 2.772756e+06 0.1 0.039 577.77562816 380.63235334 0 0 2.772065e+06 1842.31958417 1842.31958417}
+2022/09/20 20:09:52 candole.go:52: near ".": syntax error
+2022/09/20 20:09:52 candole.go:52: near ".": syntax error
+2022/09/20 20:09:52 candole.go:52: near ".": syntax error
+2022/09/20 20:09:53 streamdata.go:16: action=StreanIgestionDate, {BTC_JPY RUNNING 2022-09-20T11:09:53.1133007Z 130776 2.771018e+06 2.772755e+06 0.02 0.66 578.03029634 381.89125334 0 0 2.771767e+06 1842.42958417 1842.42958417}
+2022/09/20 20:09:53 candole.go:65: sql: no rows in result set
+2022/09/20 20:09:53 candole.go:52: near ".": syntax error
+2022/09/20 20:09:53 candole.go:52: near ".": syntax error
+2022/09/20 20:09:53 streamdata.go:16: action=StreanIgestionDate, {BTC_JPY RUNNING 2022-09-20T11:09:53.7339146Z 130783 2.771018e+06 2.772755e+06 0.02 0.66 578.03029634 381.68085334 0 0 2.771767e+06 1842.42958417 1842.42958417}
+2022/09/20 20:09:53 candole.go:52: near ".": syntax error
+2022/09/20 20:09:53 candole.go:52: near ".": syntax error
+2022/09/20 20:09:53 candole.go:52: near ".": syntax error
+2022/09/20 20:14:09 bitflyer.go:178: connencting to wss://ws.lightstream.bitflyer.com/json-rpc
+2022/09/20 20:14:10 streamdata.go:16: action=StreanIgestionDate, {BTC_JPY RUNNING 2022-09-20T11:14:10.4027287Z 132518 2.76864e+06 2.770268e+06 0.01 0.7 575.42353858 383.76348016 0 0 2.770548e+06 1834.36253842 1834.36253842}
+2022/09/20 20:14:10 candole.go:65: sql: no rows in result set
+2022/09/20 20:14:10 candole.go:65: sql: no rows in result set
+2022/09/20 20:14:11 streamdata.go:16: action=StreanIgestionDate, {BTC_JPY RUNNING 2022-09-20T11:14:11.4911631Z 132521 2.76864e+06 2.770268e+06 0.01 0.73 575.76353858 383.89348016 0 0 2.770548e+06 1834.36253842 1834.36253842}
+2022/09/20 20:14:11 candole.go:65: sql: no rows in result set
+2022/09/20 20:14:12 streamdata.go:16: action=StreanIgestionDate, {BTC_JPY RUNNING 2022-09-20T11:14:12.0289975Z 132526 2.76864e+06 2.770248e+06 0.01 0.191 575.76354355 384.23048016 0 0 2.770548e+06 1834.36253842 1834.36253842}
+2022/09/20 20:14:12 candole.go:65: sql: no rows in result set
+2022/09/20 20:18:18 bitflyer.go:178: connencting to wss://ws.lightstream.bitflyer.com/json-rpc
+2022/09/20 20:18:19 streamdata.go:16: action=StreanIgestionDate, {BTC_JPY RUNNING 2022-09-20T11:18:19.3008893Z 134002 2.76996e+06 2.772148e+06 0.038 0.34 578.47648718 382.54540005 0 0 2.771712e+06 1830.60920961 1830.60920961}
+2022/09/20 20:18:19 candole.go:60: BTC_JPY_1s
+2022/09/20 20:18:19 candole.go:66: sql: no rows in result set
+2022/09/20 20:18:19 candole.go:60: BTC_JPY_1m0s
+2022/09/20 20:18:19 candole.go:66: sql: no rows in result set
+2022/09/20 20:18:19 candole.go:60: BTC_JPY_1h0m0s
+2022/09/20 20:18:20 streamdata.go:16: action=StreanIgestionDate, {BTC_JPY RUNNING 2022-09-20T11:18:19.9570344Z 134004 2.76996e+06 2.772147e+06 0.038 0.03 578.46253008 382.57540005 0 0 2.771712e+06 1830.60920961 1830.60920961}
+2022/09/20 20:18:20 candole.go:60: BTC_JPY_1s
+2022/09/20 20:18:20 candole.go:60: BTC_JPY_1m0s
+2022/09/20 20:18:20 candole.go:60: BTC_JPY_1h0m0s
+2022/09/20 20:18:20 streamdata.go:16: action=StreanIgestionDate, {BTC_JPY RUNNING 2022-09-20T11:18:20.7048394Z 134006 2.76996e+06 2.772147e+06 0.038 0.03 578.46253008 382.57540005 0 0 2.771712e+06 1830.60920961 1830.60920961}
+2022/09/20 20:18:20 candole.go:60: BTC_JPY_1s
+2022/09/20 20:18:20 candole.go:66: sql: no rows in result set
+2022/09/20 20:18:20 candole.go:60: BTC_JPY_1m0s
+2022/09/20 20:18:20 candole.go:60: BTC_JPY_1h0m0s
+2022/09/20 20:18:21 streamdata.go:16: action=StreanIgestionDate, {BTC_JPY RUNNING 2022-09-20T11:18:21.4599222Z 134008 2.76996e+06 2.772147e+06 0.038 0.03 578.48253008 384.07540005 0 0 2.771712e+06 1830.60920961 1830.60920961}
+2022/09/20 20:18:21 candole.go:60: BTC_JPY_1h0m0s
+2022/09/20 20:18:21 candole.go:60: BTC_JPY_1s
+2022/09/20 20:18:21 candole.go:66: sql: no rows in result set
+2022/09/20 20:18:21 candole.go:60: BTC_JPY_1m0s
+2022/09/20 20:18:22 streamdata.go:16: action=StreanIgestionDate, {BTC_JPY RUNNING 2022-09-20T11:18:22.0950422Z 134015 2.76996e+06 2.772147e+06 0.038 0.03 578.46153008 384.19320005 0 0 2.771712e+06 1830.60920961 1830.60920961}
+2022/09/20 20:18:22 candole.go:60: BTC_JPY_1h0m0s
+2022/09/20 20:18:22 candole.go:60: BTC_JPY_1s
+2022/09/20 20:18:22 candole.go:66: sql: no rows in result set
+2022/09/20 20:18:22 candole.go:60: BTC_JPY_1m0s
+2022/09/20 20:18:22 streamdata.go:16: action=StreanIgestionDate, {BTC_JPY RUNNING 2022-09-20T11:18:22.7536846Z 134019 2.76996e+06 2.772147e+06 0.038 0.03 578.48253008 384.04320005 0 0 2.771712e+06 1830.60920961 1830.60920961}
+2022/09/20 20:18:22 candole.go:60: BTC_JPY_1m0s
+2022/09/20 20:18:22 candole.go:60: BTC_JPY_1h0m0s
+2022/09/20 20:18:22 candole.go:60: BTC_JPY_1s
+2022/09/20 20:18:23 streamdata.go:16: action=StreanIgestionDate, {BTC_JPY RUNNING 2022-09-20T11:18:23.6686417Z 134022 2.76996e+06 2.772147e+06 0.038 0.03 578.47648718 383.85320005 0 0 2.771712e+06 1830.60920961 1830.60920961}
+2022/09/20 20:18:23 candole.go:60: BTC_JPY_1s
+2022/09/20 20:18:23 candole.go:66: sql: no rows in result set
+2022/09/20 20:18:23 candole.go:60: BTC_JPY_1m0s
+2022/09/20 20:18:23 candole.go:60: BTC_JPY_1h0m0s
+2022/09/20 20:19:53 bitflyer.go:178: connencting to wss://ws.lightstream.bitflyer.com/json-rpc
+2022/09/20 20:19:54 streamdata.go:16: action=StreanIgestionDate, {BTC_JPY RUNNING 2022-09-20T11:19:54.6424623Z 134600 2.77236e+06 2.773469e+06 0.04 0.1 579.48478503 378.17163696 0 0 2.7729e+06 1827.29509618 1827.29509618}
+2022/09/20 20:19:54 candole.go:62: BTC_JPY_1s: &{<nil> %!s(*sql.Rows=&{0xc000112000 0x40f2da0 0xc00013e960 <nil> <nil> {{0 0} 0 0 0 0} false <nil> []})}
+2022/09/20 20:19:54 candole.go:66: sql: no rows in result set
+2022/09/20 20:19:54 candole.go:62: BTC_JPY_1m0s: &{<nil> %!s(*sql.Rows=&{0xc000112000 0x40f2da0 0xc00013eae0 <nil> <nil> {{0 0} 0 0 0 0} false <nil> []})}
+2022/09/20 20:19:54 candole.go:66: sql: no rows in result set
+2022/09/20 20:19:54 candole.go:62: BTC_JPY_1h0m0s: &{<nil> %!s(*sql.Rows=&{0xc000112000 0x40f2da0 0xc00013ec60 <nil> <nil> {{0 0} 0 0 0 0} false <nil> []})}
+2022/09/20 20:19:55 streamdata.go:16: action=StreanIgestionDate, {BTC_JPY RUNNING 2022-09-20T11:19:55.4249337Z 134604 2.77236e+06 2.773469e+06 0.04 0.1 579.50478503 379.00163696 0 0 2.7729e+06 1827.29509618 1827.29509618}
+2022/09/20 20:19:55 candole.go:62: BTC_JPY_1h0m0s: &{<nil> %!s(*sql.Rows=&{0xc000112000 0x40f2da0 0xc00013eea0 <nil> <nil> {{0 0} 0 0 0 0} false <nil> []})}
+2022/09/20 20:19:55 candole.go:62: BTC_JPY_1s: &{<nil> %!s(*sql.Rows=&{0xc000112000 0x40f2da0 0xc00013f0e0 <nil> <nil> {{0 0} 0 0 0 0} false <nil> []})}
+2022/09/20 20:19:55 candole.go:66: sql: no rows in result set
+2022/09/20 20:19:55 candole.go:62: BTC_JPY_1m0s: &{<nil> %!s(*sql.Rows=&{0xc000112000 0x40f2da0 0xc00013f260 <nil> <nil> {{0 0} 0 0 0 0} false <nil> []})}
+2022/09/20 20:19:56 streamdata.go:16: action=StreanIgestionDate, {BTC_JPY RUNNING 2022-09-20T11:19:56.339881Z 134608 2.77236e+06 2.773469e+06 0.04 0.1 578.80478503 378.30163696 0 0 2.7729e+06 1827.29509618 1827.29509618}
+2022/09/20 20:19:56 candole.go:62: BTC_JPY_1h0m0s: &{<nil> %!s(*sql.Rows=&{0xc000112000 0x40f2da0 0xc00013f4a0 <nil> <nil> {{0 0} 0 0 0 0} false <nil> []})}
+2022/09/20 20:19:56 candole.go:62: BTC_JPY_1s: &{<nil> %!s(*sql.Rows=&{0xc000112000 0x40f2da0 0xc00013f6e0 <nil> <nil> {{0 0} 0 0 0 0} false <nil> []})}
+2022/09/20 20:19:56 candole.go:66: sql: no rows in result set
+2022/09/20 20:19:56 candole.go:62: BTC_JPY_1m0s: &{<nil> %!s(*sql.Rows=&{0xc000112000 0x40f2da0 0xc00013f860 <nil> <nil> {{0 0} 0 0 0 0} false <nil> []})}
+2022/09/20 20:37:04 bitflyer.go:178: connencting to wss://ws.lightstream.bitflyer.com/json-rpc
+2022/09/20 20:37:04 streamdata.go:16: action=StreanIgestionDate, {BTC_JPY RUNNING 2022-09-20T11:37:04.9771289Z 142564 2.762888e+06 2.764e+06 0.03 1.9664238 571.29822745 387.37501483 0 0 2.764e+06 1819.01103524 1819.01103524}
+2022/09/20 20:37:04 candole.go:62: BTC_JPY_1s: {<nil> %!s(*sql.Rows=&{0xc000162000 0x40f2d80 0xc0000f4480 <nil> <nil> {{0 0} 0 0 0 0} false <nil> []})}
+2022/09/20 20:37:04 candole.go:66: sql: no rows in result set
+2022/09/20 20:37:04 candole.go:62: BTC_JPY_1m0s: {<nil> %!s(*sql.Rows=&{0xc000162000 0x40f2d80 0xc0000f4600 <nil> <nil> {{0 0} 0 0 0 0} false <nil> []})}
+2022/09/20 20:37:04 candole.go:66: sql: no rows in result set
+2022/09/20 20:37:04 candole.go:62: BTC_JPY_1h0m0s: {<nil> %!s(*sql.Rows=&{0xc000162000 0x40f2d80 0xc0000f4780 <nil> <nil> {{0 0} 0 0 0 0} false <nil> []})}
+2022/09/20 20:37:05 streamdata.go:16: action=StreanIgestionDate, {BTC_JPY RUNNING 2022-09-20T11:37:05.6799859Z 142565 2.762888e+06 2.764e+06 0.03 1.9664238 571.28822745 387.37501483 0 0 2.764e+06 1819.01103524 1819.01103524}
+2022/09/20 20:37:05 candole.go:62: BTC_JPY_1s: {<nil> %!s(*sql.Rows=&{0xc000162000 0x40f2d80 0xc0000f49c0 <nil> <nil> {{0 0} 0 0 0 0} false <nil> []})}
+2022/09/20 20:37:05 candole.go:66: sql: no rows in result set
+2022/09/20 20:37:05 candole.go:62: BTC_JPY_1m0s: {<nil> %!s(*sql.Rows=&{0xc000162000 0x40f2d80 0xc0000f4b40 <nil> <nil> {{0 0} 0 0 0 0} false <nil> []})}
+2022/09/20 20:37:05 candole.go:62: BTC_JPY_1h0m0s: {<nil> %!s(*sql.Rows=&{0xc000162000 0x40f2d80 0xc0000f4d80 <nil> <nil> {{0 0} 0 0 0 0} false <nil> []})}
+2022/09/20 20:37:06 streamdata.go:16: action=StreanIgestionDate, {BTC_JPY RUNNING 2022-09-20T11:37:06.3476384Z 142567 2.762888e+06 2.764e+06 0.03 1.9536493 571.28822745 384.08224033 0 0 2.764e+06 1819.02380974 1819.02380974}
+2022/09/20 20:37:06 candole.go:62: BTC_JPY_1s: {<nil> %!s(*sql.Rows=&{0xc000162000 0x40f2d80 0xc0000f4fc0 <nil> <nil> {{0 0} 0 0 0 0} false <nil> []})}
+2022/09/20 20:37:06 candole.go:66: sql: no rows in result set
+2022/09/20 20:37:06 candole.go:62: BTC_JPY_1m0s: {<nil> %!s(*sql.Rows=&{0xc000162000 0x40f2d80 0xc0000f5140 <nil> <nil> {{0 0} 0 0 0 0} false <nil> []})}
+2022/09/20 20:37:06 candole.go:62: BTC_JPY_1h0m0s: {<nil> %!s(*sql.Rows=&{0xc000162000 0x40f2d80 0xc0000f5380 <nil> <nil> {{0 0} 0 0 0 0} false <nil> []})}
+2022/09/20 20:47:06 bitflyer.go:178: connencting to wss://ws.lightstream.bitflyer.com/json-rpc
+2022/09/20 20:47:07 streamdata.go:16: action=StreanIgestionDate, {BTC_JPY RUNNING 2022-09-20T11:47:07.5176005Z 147174 2.76194e+06 2.763796e+06 0.039 0.35052227 571.58223954 384.01181303 0 0 2.762171e+06 1811.39747724 1811.39747724}
+2022/09/20 20:47:07 candole.go:62: <nil>
+2022/09/20 20:47:07 candole.go:66: sql: no rows in result set
+2022/09/20 20:47:07 candole.go:62: <nil>
+2022/09/20 20:47:07 candole.go:66: sql: no rows in result set
+2022/09/20 20:47:07 candole.go:62: <nil>
+2022/09/20 20:47:08 streamdata.go:16: action=StreanIgestionDate, {BTC_JPY RUNNING 2022-09-20T11:47:08.2253581Z 147178 2.76194e+06 2.763796e+06 0.039 0.35052227 571.60123954 384.71181303 0 0 2.762171e+06 1811.39747724 1811.39747724}
+2022/09/20 20:47:08 candole.go:62: <nil>
+2022/09/20 20:47:08 candole.go:66: sql: no rows in result set
+2022/09/20 20:47:08 candole.go:62: <nil>
+2022/09/20 20:47:08 candole.go:62: <nil>
+2022/09/20 20:47:40 bitflyer.go:178: connencting to wss://ws.lightstream.bitflyer.com/json-rpc
+2022/09/20 20:47:41 streamdata.go:16: action=StreanIgestionDate, {BTC_JPY RUNNING 2022-09-20T11:47:41.8158763Z 147363 2.761372e+06 2.763278e+06 0.039 0.03 572.30581479 387.55159287 0 0 2.761947e+06 1811.40867724 1811.40867724}
+2022/09/20 20:47:41 candole.go:68: sql: no rows in result set
+2022/09/20 20:47:42 streamdata.go:16: action=StreanIgestionDate, {BTC_JPY RUNNING 2022-09-20T11:47:42.5413999Z 147365 2.761373e+06 2.763278e+06 0.03 0.03 572.33581479 386.85159287 0 0 2.761947e+06 1811.40867724 1811.40867724}
+2022/09/20 20:47:42 candole.go:68: sql: no rows in result set
+2022/09/20 20:47:43 streamdata.go:16: action=StreanIgestionDate, {BTC_JPY RUNNING 2022-09-20T11:47:43.2382443Z 147368 2.761373e+06 2.763278e+06 0.03 0.03 572.33581479 387.38159287 0 0 2.761947e+06 1811.40867724 1811.40867724}
+2022/09/20 20:47:43 candole.go:68: sql: no rows in result set
+2022/09/20 20:47:43 streamdata.go:16: action=StreanIgestionDate, {BTC_JPY RUNNING 2022-09-20T11:47:43.9344706Z 147371 2.761373e+06 2.763278e+06 0.03 0.03 568.48581479 387.55159287 0 0 2.761947e+06 1811.40867724 1811.40867724}
+2022/09/20 20:47:59 bitflyer.go:178: connencting to wss://ws.lightstream.bitflyer.com/json-rpc
+2022/09/20 20:48:00 streamdata.go:16: action=StreanIgestionDate, {BTC_JPY RUNNING 2022-09-20T11:48:00.2618633Z 147454 2.76137e+06 2.762813e+06 0.039 0.893 571.17160005 387.04283266 0 0 2.761947e+06 1810.77017724 1810.77017724}
+2022/09/20 20:48:00 streamdata.go:16: action=StreanIgestionDate, {BTC_JPY RUNNING 2022-09-20T11:48:00.8088031Z 147455 2.76137e+06 2.762813e+06 0.039 0.893 571.48260005 387.04283266 0 0 2.761947e+06 1810.77017724 1810.77017724}
+2022/09/20 20:48:01 streamdata.go:16: action=StreanIgestionDate, {BTC_JPY RUNNING 2022-09-20T11:48:01.3284533Z 147459 2.76137e+06 2.762812e+06 0.039 0.32447528 571.48260005 387.70145123 0 0 2.761947e+06 1810.77017724 1810.77017724}
