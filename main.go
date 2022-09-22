@@ -1,7 +1,6 @@
 package main
 
 import (
-
 	"gotrading/app/controllers"
 	_ "gotrading/app/models"
 	"gotrading/config"
@@ -13,7 +12,7 @@ func main() {
 
 	// fmt.Println(models.DbConnection)
 	controllers.StreamIngestionData()
-
+	controllers.StartWebServer()
 	// apiClient := bitflyer.New(config.Config.ApiKey, config.Config.ApiSecret)
 
 	// tickerChannel := make(chan bitflyer.Ticker)
