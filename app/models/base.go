@@ -15,7 +15,7 @@ const tableNameSignalEvents = "Signal_events"
 
 var DbConnection *sql.DB
 
-func GetCandoleTableName(productCode string, duration time.Duration) string {
+func GetCandleTableName(productCode string, duration time.Duration) string {
 	return fmt.Sprintf("%s_%s", productCode, duration)
 }
 
@@ -38,7 +38,7 @@ func init() {
 		log.Println(err)
 	}
 	for _, duration := range config.Config.Durations {
-		tableName := GetCandoleTableName(config.Config.ProductCode, duration)
+		tableName := GetCandleTableName(config.Config.ProductCode, duration)
 		c := fmt.Sprintf(`
 			CREATE TABLE IF NOT EXISTS %s (
 				time DATETIME PRIMARY KEY NOT NULL,

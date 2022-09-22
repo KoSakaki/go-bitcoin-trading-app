@@ -7,7 +7,7 @@ import (
 	"time"
 )
 
-type Candole struct {
+type Candle struct {
 	ProductCode string        `json:"product_code"`
 	Duration    time.Duration `json:"duration"`
 	Time        time.Time     `json:"time"`
@@ -18,8 +18,8 @@ type Candole struct {
 	Volume      float64       `json:"volume"`
 }
 
-func NewCandole(productCode string, duration time.Duration, timeDate time.Time, open, close, high, low, volume float64) *Candole {
-	return &Candole{
+func NewCandle(productCode string, duration time.Duration, timeDate time.Time, open, close, high, low, volume float64) *Candle {
+	return &Candle{
 		productCode,
 		duration,
 		timeDate,
@@ -31,11 +31,11 @@ func NewCandole(productCode string, duration time.Duration, timeDate time.Time, 
 	}
 }
 
-func (c *Candole) TableName() string {
-	return GetCandoleTableName(c.ProductCode, c.Duration)
+func (c *Candle) TableName() string {
+	return GetCandleTableName(c.ProductCode, c.Duration)
 }
 
-func (c *Candole) Create() error {
+func (c *Candle) Create() error {
 	cmd := fmt.Sprintf("INSERT INTO %s(time, open, close, high, low, volume) VALUES (?, ?, ?, ?, ?, ?)", c.TableName())
 	_, err := DbConnection.Exec(cmd, c.Time.Format(time.RFC3339), c.Open, c.Close, c.High, c.Low, c.Volume)
 	if err != nil {
@@ -45,7 +45,7 @@ func (c *Candole) Create() error {
 
 	return err
 }
-func (c *Candole) Save() error {
+func (c *Candle) Save() error {
 	cmd := fmt.Sprintf("UPDATE %s SET open = ?, close = ?, high = ?, low = ?, volume = ? WHERE time = ?", c.TableName())
 	_, err := DbConnection.Exec(cmd, c.Open, c.Close, c.High, c.Low, c.Volume, c.Time.Format(time.RFC3339))
 	if err != nil {
@@ -55,41 +55,41 @@ func (c *Candole) Save() error {
 	return err
 }
 
-func GetCandole(productCode string, duration time.Duration, dateTime time.Time) *Candole {
-	tableName := GetCandoleTableName(productCode, duration)
+func GetCandle(productCode string, duration time.Duration, dateTime time.Time) *Candle {
+	tableName := GetCandleTableName(productCode, duration)
 	cmd := fmt.Sprintf("SELECT time, open, close, high, low, volume FROM %s WHERE time = ?", tableName)
 	row := DbConnection.QueryRow(cmd, dateTime.Format(time.RFC3339))
-	var candole Candole
-	err := row.Scan(&candole.Time, &candole.Open, &candole.Close, &candole.High, &candole.Low, &candole.Volume)
+	var candle Candle
+	err := row.Scan(&candle.Time, &candle.Open, &candle.Close, &candle.High, &candle.Low, &candle.Volume)
 	if err != nil {
 		// log.Println(err)
 		return nil
 	}
-	return NewCandole(productCode, duration, candole.Time, candole.Open, candole.Close, candole.High, candole.Low, candole.Volume)
+	return NewCandle(productCode, duration, candle.Time, candle.Open, candle.Close, candle.High, candle.Low, candle.Volume)
 }
 
 func CreateCandleWithDuration(ticker bitflyer.Ticker, productCode string, duration time.Duration) bool {
-	currentCandole := GetCandole(productCode, duration, ticker.TruncateDateTime(duration))
+	currentCandle := GetCandle(productCode, duration, ticker.TruncateDateTime(duration))
 	price := ticker.GetMidPrice()
-	if currentCandole == nil {
-		candole := NewCandole(productCode, duration, ticker.TruncateDateTime(duration), price, price, price, price, ticker.Volume)
-		candole.Create()
+	if currentCandle == nil {
+		candle := NewCandle(productCode, duration, ticker.TruncateDateTime(duration), price, price, price, price, ticker.Volume)
+		candle.Create()
 		return true
 	}
 
-	if currentCandole.High <= price {
-		currentCandole.High = price
-	} else if currentCandole.Low >= price {
-		currentCandole.Low = price
+	if currentCandle.High <= price {
+		currentCandle.High = price
+	} else if currentCandle.Low >= price {
+		currentCandle.Low = price
 	}
-	currentCandole.Volume += ticker.Volume
-	currentCandole.Close = price
-	currentCandole.Save()
+	currentCandle.Volume += ticker.Volume
+	currentCandle.Close = price
+	currentCandle.Save()
 	return false
 }
 
-func GetAllCandole(productCode string, duration time.Duration, limit int) (dfCandole *DataFrameCandole, err error) {
-	tableName := GetCandoleTableName(productCode, duration)
+func GetAllCandle(productCode string, duration time.Duration, limit int) (dfCandle *DataFrameCandle, err error) {
+	tableName := GetCandleTableName(productCode, duration)
 	cmd := fmt.Sprintf(`SELECT * FROM (
 		SELECT time, open, close, high, low, volume FROM %s ORDER BY time DESC LIMIT ?
 	) ORDER BY time ASC;`, tableName)
@@ -98,18 +98,18 @@ func GetAllCandole(productCode string, duration time.Duration, limit int) (dfCan
 		return
 	}
 	defer rows.Close()
-	dfCandole = &DataFrameCandole{}
-	dfCandole.Productcode = productCode
-	dfCandole.Duration = duration
+	dfCandle = &DataFrameCandle{}
+	dfCandle.Productcode = productCode
+	dfCandle.Duration = duration
 	for rows.Next() {
-		var candole Candole
-		candole.Duration = duration
-		rows.Scan(&candole.Time, &candole.Open, &candole.Close, &candole.High, &candole.Low, &candole.Volume)
-		dfCandole.Candoles = append(dfCandole.Candoles, candole)
+		var candle Candle
+		candle.Duration = duration
+		rows.Scan(&candle.Time, &candle.Open, &candle.Close, &candle.High, &candle.Low, &candle.Volume)
+		dfCandle.Candles = append(dfCandle.Candles, candle)
 	}
 	err = rows.Err()
 	if err != nil {
 		return
 	}
-	return dfCandole, nil
+	return dfCandle, nil
 }

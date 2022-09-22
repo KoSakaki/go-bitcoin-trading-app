@@ -12,15 +12,11 @@ import (
 	"text/template"
 )
 
-var templates = template.Must(template.ParseFiles("app/views/google.html"))
+var templates = template.Must(template.ParseFiles("app/views/chart.html"))
 
 func viewChartHandler(w http.ResponseWriter, r *http.Request) {
 
-	limit := 100
-	duration := "1s"
-	durationTime := config.Config.Durations[duration]
-	df, _ := models.GetAllCandole(config.Config.ProductCode, durationTime, limit)
-	err := templates.ExecuteTemplate(w, "google.html", df.Candoles)
+	err := templates.ExecuteTemplate(w, "chart.html", nil)
 	if err != nil {
 		http.Error(w, err.Error(), http.StatusInternalServerError)
 	}
@@ -41,7 +37,7 @@ func APIError(w http.ResponseWriter, errMessage string, code int) {
 	w.Write(jsonError)
 }
 
-var apiValidPath = regexp.MustCompile("^/api/candole/$")
+var apiValidPath = regexp.MustCompile("^/api/candle/$")
 
 func apiMakeHandler(fn func(http.ResponseWriter, *http.Request)) http.HandlerFunc {
 	return func(w http.ResponseWriter, r *http.Request) {
@@ -53,7 +49,7 @@ func apiMakeHandler(fn func(http.ResponseWriter, *http.Request)) http.HandlerFun
 	}
 }
 
-func apiCandoleHandler(w http.ResponseWriter, r *http.Request) {
+func apiCandleHandler(w http.ResponseWriter, r *http.Request) {
 	productCode := r.URL.Query().Get("product_code")
 	if productCode == "" {
 		APIError(w, "No product_code", http.StatusBadRequest)
@@ -70,7 +66,7 @@ func apiCandoleHandler(w http.ResponseWriter, r *http.Request) {
 	}
 	durationTime := config.Config.Durations[duration]
 
-	df, _ := models.GetAllCandole(productCode, durationTime, limit)
+	df, _ := models.GetAllCandle(productCode, durationTime, limit)
 	js, err := json.Marshal(df)
 	if err != nil {
 		http.Error(w, err.Error(), http.StatusInternalServerError)
@@ -80,7 +76,7 @@ func apiCandoleHandler(w http.ResponseWriter, r *http.Request) {
 }
 
 func StartWebServer() error {
-	http.HandleFunc("/api/candole/", apiMakeHandler(apiCandoleHandler))
+	http.HandleFunc("/api/candle/", apiMakeHandler(apiCandleHandler))
 	http.HandleFunc("/chart/", viewChartHandler)
 	return http.ListenAndServe(fmt.Sprintf(":%d", config.Config.Port), nil)
 }

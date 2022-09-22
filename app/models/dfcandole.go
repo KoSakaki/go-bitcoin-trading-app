@@ -2,52 +2,52 @@ package models
 
 import "time"
 
-type DataFrameCandole struct {
+type DataFrameCandle struct {
 	Productcode string    `json:"product_code"`
 	Duration    time.Duration    `json:"duration"`
-	Candoles    []Candole `json:"candoles"`
+	Candles    []Candle `json:"candles"`
 }
 
-func (df *DataFrameCandole) Times() []time.Time {
-	s := make([]time.Time, len(df.Candoles))
-	for i, candole := range df.Candoles {
-		s[i] = candole.Time
+func (df *DataFrameCandle) Times() []time.Time {
+	s := make([]time.Time, len(df.Candles))
+	for i, candle := range df.Candles {
+		s[i] = candle.Time
 	}
 	return s
 }
 
-func (df *DataFrameCandole) Opens() []float64 {
-	s := make([]float64, len(df.Candoles))
-	for i, candole := range df.Candoles {
-		s[i] = candole.Open
+func (df *DataFrameCandle) Opens() []float64 {
+	s := make([]float64, len(df.Candles))
+	for i, candle := range df.Candles {
+		s[i] = candle.Open
 	}
 	return s
 }
-func (df *DataFrameCandole) Closes() []float64 {
-	s := make([]float64, len(df.Candoles))
-	for i, candole := range df.Candoles {
-		s[i] = candole.Close
+func (df *DataFrameCandle) Closes() []float64 {
+	s := make([]float64, len(df.Candles))
+	for i, candle := range df.Candles {
+		s[i] = candle.Close
 	}
 	return s
 }
-func (df *DataFrameCandole) Highs() []float64 {
-	s := make([]float64, len(df.Candoles))
-	for i, candole := range df.Candoles {
-		s[i] = candole.High
+func (df *DataFrameCandle) Highs() []float64 {
+	s := make([]float64, len(df.Candles))
+	for i, candle := range df.Candles {
+		s[i] = candle.High
 	}
 	return s
 }
-func (df *DataFrameCandole) Lows() []float64 {
-	s := make([]float64, len(df.Candoles))
-	for i, candole := range df.Candoles {
-		s[i] = candole.Low
+func (df *DataFrameCandle) Lows() []float64 {
+	s := make([]float64, len(df.Candles))
+	for i, candle := range df.Candles {
+		s[i] = candle.Low
 	}
 	return s
 }
-func (df *DataFrameCandole) Volumes() []float64 {
-	s := make([]float64, len(df.Candoles))
-	for i, candole := range df.Candoles {
-		s[i] = candole.Volume
+func (df *DataFrameCandle) Volumes() []float64 {
+	s := make([]float64, len(df.Candles))
+	for i, candle := range df.Candles {
+		s[i] = candle.Volume
 	}
 	return s
 }
