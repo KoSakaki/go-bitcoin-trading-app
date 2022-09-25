@@ -8,12 +8,4 @@ require (
 
 require github.com/stretchr/testify v1.8.0 // indirect
 
-// replace (
-// 	gotrading/app/controllers => ./app/controllers
-// 	gotrading/app/models => ./app/models
-// 	gotrading/bitflyer => ./bitflyer
-// 	gotrading/config => ./config
-// 	gotrading/utils => ./utils
-// )
-
 go 1.19
